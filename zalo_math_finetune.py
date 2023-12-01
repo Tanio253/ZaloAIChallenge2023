@@ -224,8 +224,8 @@ def train(
     wandb_log_model: str = "",  # options: false | true
     resume_from_checkpoint: str = None,  # either training checkpoint or final adapter
     prompt_template_name: str = "alpaca",  # The prompt template to use, will default to alpaca.
-    wandb_api_key: str = None, # Wandb api key
-    huggingface_token: str = None, # token to login huggingface
+    wandb_api_key: str = 'db6f204a887bc4436623a37ce6db19522e0069d5', # Wandb api key
+    huggingface_token: str = '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', # token to login huggingface
     huggingface_repo: str = None, # push to repo
 ):
     
