@@ -1,0 +1,2454 @@
+{
+    "__count__": 204,
+    "data":[
+
+            {
+                "id": "786",
+                "question": "Lan có 5 hộp bánh, mỗi hộp bánh gồm 7 gói bánh. Số gói bánh mà Lan có là:",
+                "choices": [
+                    "A. 28 gói bánh",
+                    "B. 63 gói bánh",
+                    "C. 42 gói bánh",
+                    "D. 35 gói bánh"
+                ],
+                "explanation": "Để tính tổng số gói bánh mà Lan có, chúng ta nhân số hộp bánh (5) với số gói bánh trong mỗi hộp (7). Số gói bánh mà Lan có là 5 hộp * 7 gói/hộp = 35 gói bánh.",
+                "answer": "D. 35 gói bánh"
+            },
+            {
+                "id": "787",
+                "question": "Lan có 56 cái kẹo được chia vào 7 hộp nhỏ. Mỗi hộp có số kẹo là:",
+                "choices": [
+                    "A. 8 cái kẹo",
+                    "B. 42 bông hoa",
+                    "C. 20 cái kẹo",
+                    "D. 64 bông"
+                ],
+                "explanation": "Để tính số kẹo trong mỗi hộp, chúng ta chia tổng số kẹo (56 cái) cho số hộp (7). Số kẹo trong mỗi hộp là 56 cái / 7 hộp = 8 cái kẹo. Do đó, câu trả lời đúng là chọn 8 cái kẹo.",
+                "answer": "A. 8 cái kẹo"
+            },
+            {
+                "id": "788",
+                "question": "Lan đang nghĩ đến một số tròn chục có hai chữ số mà chữ số hàng chục cộng chữ số hàng đơn vị được kết quả bằng 7. Số Lan đang nghĩ tới là:",
+                "choices": [
+                    "A. 70",
+                    "B. 52",
+                    "C. 34",
+                    "D. 61"
+                ],
+                "explanation": "Để tìm số tròn chục thỏa mãn điều kiện, chúng ta có thể thử từng số lựa chọn. Trong trường hợp này, số 70 là lựa chọn đúng vì 7 + 0 = 7. Do đó, câu trả lời là 70.",
+                "answer": "A. 70"
+            },
+            {
+                "id": "789",
+                "question": "Lan gấp được 100 con hạc, Hồng gấp được ít hơn Lan 13 con hạc. Hỏi Hồng gấp được bao nhiêu con hạc?",
+                "choices": [
+                    "A. 103 con hạc",
+                    "B. 113 con hạc",
+                    "C. 97 con hạc",
+                    "D. 87 con hạc"
+                ],
+                "explanation": "Để tìm số con hạc Hồng gấp được, ta trừ số con hạc Lan gấp được (100 con) cho số con hạc ít hơn (13 con). Số con hạc của Hồng là 100 con - 13 con = 87 con hạc.",
+                "answer": "D. 87 con hạc"
+            },
+            {
+                "id": "79",
+                "question": "“9ha 7m2 = ………dam2”. Số thích hợp cần điền vào chỗ chấm là:",
+                "choices": [
+                    "A. 9,7",
+                    "B. 9,07",
+                    "C. 900,07",
+                    "D. 90,07"
+                ],
+                "explanation": "9ha 7m2 = 90,07dam2",
+                "answer": "D. 90,07"
+            },
+            {
+                "id": "790",
+                "question": "Lan mua 10 gói bánh có giá là 80000 đồng. Số tiền Lan phải trả khi mua 6 gói bánh như thế là:",
+                "choices": [
+                    "A. 48000 đồng",
+                    "B. 50000 đồng",
+                    "C. 52000 đồng",
+                    "D. 54000 đồng"
+                ],
+                "explanation": "Để tính số tiền Lan phải trả khi mua 6 gói bánh, chúng ta sử dụng quy tắc tỷ lệ. Số tiền phải trả khi mua 6 gói bánh là (6 gói / 10 gói) * 80000 đồng = 48000 đồng.",
+                "answer": "A. 48000 đồng"
+            },
+            {
+                "id": "791",
+                "question": "Lan mua một máy tính xách tay tại một cửa hàng với giá niêm yết đã giảm 20% so với giá ban đầu. Tổng số tiền phải trả là 10 triệu đồng, bao gồm 8% thuế giá trị gia tăng trên giá niêm yết. Giá ban đầu của máy tính đó là",
+                "choices": [
+                    "A. 8.640.000 đ",
+                    "B. 8.800.000 đ",
+                    "C. 11.574.074 đ",
+                    "D. 11.363.636 đ"
+                ],
+                "explanation": "Gọi giá ban đầu của máy tính là x. Sau khi giảm giá 20%, giá niêm yết là 0,8x. Tổng số tiền phải trả là 0,8x + 0,08(0,8x) = 10 triệu đồng (bao gồm cả thuế VAT 8%). Giải phương trình này ta có x = 11.574.074 đồng.",
+                "answer": "C. 11.574.074 đ"
+            },
+            {
+                "id": "792",
+                "question": "Lan nghĩ ra một số, biết rằng đem số đó nhân với 265 thì được 55120. Số Lan nghĩ là :",
+                "choices": [
+                    "A. 208",
+                    "B. 28",
+                    "C. 2091",
+                    "D. 281"
+                ],
+                "explanation": "Gọi số Lan nghĩ là x. Theo đề bài, ta có phương trình 265x = 55120. Giải phương trình này ta được x = 298. Do đó, câu trả lời là 208.",
+                "answer": "A. 208"
+            },
+            {
+                "id": "793",
+                "question": "Lấy mệnh đề phủ định của mệnh đề: 'Số 6 chia hết cho 2 và 3'",
+                "choices": [
+                    "A. Số 6 chia hết cho 2 hoặc 3",
+                    "B. Số 6 không chia hết cho 2 và 3",
+                    "C. Số 6 không chia hết cho 2 hoặc 3",
+                    "D. Số 6 không chia hết cho 2 và chia hết cho 3"
+                ],
+                "explanation": "Mệnh đề phủ định của 'Số 6 chia hết cho 2 và 3' là 'Số 6 không chia hết cho 2 hoặc 3'.",
+                "answer": "C. Số 6 không chia hết cho 2 hoặc 3"
+            },
+            {
+                "id": "794",
+                "question": "Lớp 10A có 21 bạn nam và 18 bạn nữ. Hỏi có bao nhiêu cách chọn một học sinh làm lớp trưởng?",
+                "choices": [
+                    "A. 39 cách",
+                    "B. 29 cách",
+                    "C. 168 cách",
+                    "D. 158 cách"
+                ],
+                "explanation": "Tổng số cách chọn một học sinh làm lớp trưởng là tổng số học sinh nam và nữ, tức là 21 + 18 = 39 cách. Do đó, câu trả lời là 39 cách.",
+                "answer": "A. 39 cách"
+            },
+            {
+                "id": "795",
+                "question": "Lớp 1A có 24 bạn nam và 2 chục bạn nữ. Vậy, lớp 1A có tất cả số bạn là:",
+                "choices": [
+                    "A. 26 bạn",
+                    "B. 44 bạn",
+                    "C. 22 bạn",
+                    "D. 40 bạn"
+                ],
+                "explanation": "Vì '2 chục' có thể hiểu là 20, nên số bạn nữ là 20. Tổng số bạn là 24 + 20 = 44 bạn. Do đó, câu trả lời là 44 bạn.",
+                "answer": "B. 44 bạn"
+            },
+            {
+                "id": "796",
+                "question": "Lớp 1A và lớp 1B cùng tham gia trồng cây. Lớp 1A trồng được 38 cây. Lớp 1B trồng được 31 cây. Cả hai lớp trồng được tất cả số cây là:",
+                "choices": [
+                    "A. 37 cây",
+                    "B. 69 cây",
+                    "C. 48 cây",
+                    "D. 79 cây"
+                ],
+                "explanation": "Tổng số cây trồng bởi cả hai lớp là 38 + 31 = 69. Do đó, câu trả lời là 69 cây.",            
+                "answer": "B. 69 cây"
+            },
+            {
+                "id": "797",
+                "question": "Lớp 2A có 25 học sinh. Cô Hà tặng cho mỗi bạn một quyển vở thì còn lại 4 quyển. Số quyển vở cô Hà có lúc đầu là:",
+                "choices": [
+                    "A. 21 quyển vở",
+                    "B. 65 quyển vở",
+                    "C. 27 quyển vở",
+                    "D. 29 quyển vở"
+                ],
+                "explanation": "Số quyển vở cô Hà có lúc đầu là:\n 25 + 4 = 29 (quyển vở)",
+                "answer": "D. 29 quyển vở"
+            },
+            {
+                "id": "798",
+                "question": "Lớp 3A có 44 bạn, cô giáo chia thành 4 tổ. Hỏi mỗi tổ có bao nhiêu bạn?",
+                "choices": [
+                    "A. 12",
+                    "B. 15",
+                    "C. 13",
+                    "D. 11"
+                ],
+                "explanation": "Để chia 44 bạn thành 4 tổ sao cho mỗi tổ có số bạn bằng nhau, chúng ta thực hiện phép chia 44 / 4 = 11. Do đó mỗi tổ có 11 bạn.",
+                "answer": "D. 11"
+            },
+            {
+                "id": "799",
+                "question": "Lớp 3A có 8 bạn học sinh nữ và 24 bạn học sinh nam. Số bạn học sinh nữ bằng một phần mấy số bạn học sinh nam?",
+                "choices": [
+                    "A. 1/1",
+                    "B. 1/2",
+                    "C. 1/3",
+                    "D. 1/4"
+                ],
+                "explanation": "Số bạn học sinh nữ so với số bạn học sinh nam là: 8 / 24 = 1/3. Do đó, đáp án là 1/3.",
+                "answer": "B. 1/3"
+            },
+            {
+                "id": "8",
+                "question": "5m2 6dm2 = … dm2 Số thích hợp để viết vào chỗ chấm là:",
+                "choices": [
+                    "A. 56",
+                    "B. 506",
+                    "C. 560",
+                    "D. 5600"
+                ],
+                "explanation": "5m2 6dm2 = 506 dm2",
+                "answer": "B. 506"
+            },
+            {
+                "id": "80",
+                "question": "“Chiều dài phòng học của em khoảng 8...”. Tên đơn vị cần điền vào chỗ chấm là:",
+                "choices": [
+                    "A. m",
+                    "B. dm",
+                    "C. cm",
+                    "D. mm"
+                ],
+                "explanation": "Trong ngữ cảnh của câu hỏi, khi nói về chiều dài của phòng học, đơn vị phù hợp là mét (m). Do đó, đáp án là m.",
+                "answer": "A. m"
+            },
+            {
+                "id": "800",
+                "question": "Lớp 3A góp 70 kg giấy vụn, lớp 3B góp 85 kg giấy vụn. Số giấy vụn của hai lớp đóng vào 5 bao đều nhau. Hỏi mỗi bao có bao nhiêu ki-lô-gam giấy?",
+                "choices": [
+                    "A. 25 kg",
+                    "B. 30 kg",
+                    "C. 32 kg",
+                    "D. 31 kg"
+                ],
+                "explanation": "Tổng số giấy vụn là 70 kg (lớp 3A) + 85 kg (lớp 3B) = 155 kg. Số bao là 5. Vậy mỗi bao có: 155 kg / 5 bao = 31 kg. Do đó, đáp án là 31 kg.",
+                "answer": "D. 31 kg"
+            },
+            {
+                "id": "801",
+                "question": "Lớp 4B có 12 học sinh nữ và 17 học sinh nam. Vậy phân số chỉ số học sinh nữ với số học sinh cả lớp là:",
+                "choices": [
+                    "A. $\\frac{17}{12}$",
+                    "B. $\\frac{12}{17}$",
+                    "C. $\\frac{17}{29}$",
+                    "D. $\\frac{12}{29}$"
+                ],
+                "explanation": "Phân số chỉ số học sinh nữ với số học sinh cả lớp là: $\frac{12}{12 + 17} = \frac{12}{29}$. Do đó, đáp án là $\frac{12}{29}$.",
+                "answer": "D. $\\frac{12}{29}$"
+            },
+            {
+                "id": "802",
+                "question": "Lớp 5A có 40 bạn, trong đó có 24 bạn thích môn toán, còn lại là các bạn thích môn tiếng việt. Số bạn thích môn tiếng việt chiếm số phần trăm so với số bạn của lớp 5A là:",
+                "choices": [
+                    "A. 40%",
+                    "B. 50%",
+                    "C. 60%",
+                    "D. 20%"
+                ],
+                "explanation": "Số bạn thích môn tiếng việt là: 40 – 24 = 16 (bạn)\n Số bạn thích môn tiếng việt chiếm số phần trăm so với số bạn của lớp 5A là:16 : 40 ${\\times}$ 100% = 40%\n Đáp số: 40%",
+                "answer": "A. 40%"
+            },
+            {
+                "id": "803",
+                "question": "Lớp 5A có 50 học sinh. Số học sinh nam chiếm 40% số học sinh cả lớp. Lớp 5A có số học sinh nữ là:",
+                "choices": [
+                    "A. 20 học sinh",
+                    "B. 30 học sinh",
+                    "C. 24 học sinh",
+                    "D. 40 học sinh"
+                ],
+                "explanation": "Lớp 5A có 50 học sinh. Số học sinh nam chiếm 40% số học sinh cả lớp. Lớp 5A có số học sinh nam là: 50 ${\\times}$ 40 : 100 = 20 (học sinh)\n Lớp 5A có số học sinh nữ là: 50 – 20 = 30 (học sinh)",
+                "answer": "B. 30 học sinh"
+            },
+            {
+                "id": "804",
+                "question": "Lớp 5C có 15 học sinh nam. Số học sinh nam chiếm 60% số học sinh cả lớp. Lớp 5C có số học sinh là:",
+                "choices": [
+                    "A. 36 học sinh",
+                    "B. 25 học sinh",
+                    "C. 30 học sinh",
+                    "D. 20 học sinh"
+                ],
+                "explanation": "Số học sinh nam chiếm 60% số học sinh cả lớp, vậy số học sinh cả lớp là: $\frac{15}{0.6} = 25$. Do đó, đáp án là 25 học sinh.",
+                "answer": "B. 25 học sinh"
+            },
+            {
+                "id": "805",
+                "question": "Lớp học có 18 nữ và 12 nam. Hỏi số học sinh nữ chiếm bao nhiêu phần trăm số học sinh cả lớp?",
+                "choices": [
+                    "A. 150%",
+                    "B. 60%",
+                    "C. 40%",
+                    "D. 80%"
+                ],
+                "explanation": "Số học sinh nữ chiếm phần trăm trong số học sinh cả lớp là: $\\frac{18}{18 + 12} \\times 100\\% = \\frac{18}{30} \\times 100\\% = 60\\%$. Do đó, đáp án là 60%.",
+                "answer": "B. 60%"
+            },
+            {
+                "id": "806",
+                "question": "Lớp học có 32 học sinh, số học sinh nữ là 12 em. Số học sinh nữ chiếm số phần trăm so với số học sinh nam là:",
+                "choices": [
+                    "A. 60%",
+                    "B. 37,5%",
+                    "C. 2,66%",
+                    "D. 20%"
+                ],
+                "explanation": "Lớp học có 32 học sinh, số học sinh nữ là 12 em. \n Số học sinh nam là: 32 – 12 = 20 (học sinh)\n Số học sinh nữ chiếm số phần trăm so với số học sinh nam là: 12 : 20 ${\\times}$ 100% = 60%",
+                "answer": "A. 60%"
+            },
+            {
+                "id": "807",
+                "question": "Lớp học có 32 học sinh, trong đó có 12 học sinh nữ. Hỏi số học sinh nữ chiếm bao nhiêu phần trăm số học sinh cả lớp?",
+                "choices": [
+                    "A. 34,5%",
+                    "B. 35,4%",
+                    "C. 37,4%",
+                    "D. 37,5%"
+                ],
+                "explanation": "Số học sinh nữ chiếm phần trăm trong số học sinh cả lớp là: $\\frac{12}{32} \\times 100\\% = \\frac{3}{8} \\times 100\\% = 37,5\\%$. Do đó, đáp án là 37,5%",
+                "answer": "D. 37,5%"
+            },
+            {
+                "id": "808",
+                "question": "Lớp học có 40 học sinh trong đó có 10 học sinh nữ. Số học sinh nữ chiếm số phần trăm so với số học sinh cả lớp là:",
+                "choices": [
+                    "A. 20%",
+                    "B. 25%",
+                    "C. 30%",
+                    "D. 35%"
+                ],
+                "explanation": "Lớp học có 40 học sinh trong đó có 10 học sinh nữ. \n Số học sinh nữ chiếm số phần trăm so với số học sinh cả lớp là: 10 : 40 ${\\times}$ 100% = 25%",
+                "answer": "B. 25%"
+            },
+            {
+                "id": "809",
+                "question": "Lớp Minh có 32 bạn. Sáng nay, lớp Minh có tổ chức đi dã ngoại. Lúc Minh đến thì thấy có 14 bạn đã đến. Số bạn chưa đến là",
+                "choices": [
+                    "A. 18 bạn",
+                    "B. 17 bạn",
+                    "C. 16 bạn",
+                    "D. 28 bạn"
+                ],
+                "explanation": "Số bạn có mặt ở lớp là:$14 + 1 = 15$ (bạn)\n Số bạn chưa đến lớp là: 32 – 15 = 17 (bạn) Đáp số: 17 bạn",
+                "answer": "B. 17 bạn"
+            },
+            {
+                "id": "81",
+                "question": "“Chín triệu bốn trăm sáu mươi bảy nghìn ba trăm hai mươi sáu” biểu thị số:",
+                "choices": [
+                    "A. 9 467 000",
+                    "B. 9 467 326",
+                    "C. 9 000 326",
+                    "D. 9 476 362"
+                ],
+                "explanation": "Số được biểu thị bởi câu nói là 9 467 326. Do đó, đáp án là 9 467 326.",
+                "answer": "B. 9 467 326"
+            },
+            {
+                "id": "810",
+                "question": "Lớp Minh có 32 bạn. Sáng nay, lớp Minh có tổ chức đi dã ngoại. Lúc Minh đến thì thấy có 14 bạn đã đến. Số bạn chưa đến là:",
+                "choices": [
+                    "A. 18 bạn",
+                    "B. 17 bạn",
+                    "C. 16 bạn",
+                    "D. 28 bạn"
+                ],
+                "explanation": "Đáp án đúng là: C\n Số bạn có mặt ở lớp là:\n 14 + 1 = 15 (bạn)\n Số bạn chưa đến lớp là:\n 32 – 15 = 17 (bạn)\n Đáp số: 17 bạn",
+                "answer": "B. 17 bạn"
+            },
+            {
+                "id": "811",
+                "question": "Luân đi đến trường là 30 phút với vận tốc 4 km/giờ. Hỏi quãng đường từ nhà Luân đến trường là bao nhiêu kí-lô-mét?",
+                "choices": [
+                    "A. 8 km",
+                    "B. 2 km",
+                    "C. 4 km",
+                    "D. 6 km"
+                ],
+                "explanation": "Quãng đường có thể tính bằng công thức: Quãng đường = Vận tốc x Thời gian. Ở đây, quãng đường = 4 km/giờ x 0,5 giờ = 2 km. Do đó, đáp án là 2 km.",
+                "answer": "B. 2 km"
+            },
+            {
+                "id": "812",
+                "question": "Lúc 20 giờ kim giờ và kim phút của đồng hồ tạo thành một góc ở tâm có số đo là bao nhiêu độ?",
+                "choices": [
+                    "A. 60^0",
+                    "B. 90^0",
+                    "C. 120^0",
+                    "D. 240^0"
+                ],
+                "explanation": "Mỗi giờ trên đồng hồ tương ứng với một góc là 30 độ (vì có tổng cộng 12 giờ trên đồng hồ, và 360 độ / 12 giờ = 30 độ/giờ). Lúc 20 giờ, kim giờ chỉ hướng lên trên (12 giờ), trong khi kim phút chỉ hướng lên 12. Do đó, góc giữa kim giờ và kim phút là 120 độ (30 độ x 4 giờ). Do đó, đáp án là 120^0.",
+                "answer": "C. 120^0"
+            },
+            {
+                "id": "813",
+                "question": "Lúc 6 giờ 20 phút, bạn Hạnh đi từ A đến B với vận tốc 12km/giờ. Biết quãng đường AB dài 18km. Hỏi đến 7 giờ 40 phút, bạn Hạnh còn cách B bao nhiêu kilômét?",
+                "choices": [
+                    "A. 4km",
+                    "B. 3km",
+                    "C. 1km",
+                    "D. 2km"
+                ],
+                "explanation": "Thời gian di chuyển từ 6 giờ 20 phút đến 7 giờ 40 phút là 1 giờ 20 phút, tức là 1.33 giờ. Quãng đường đã đi được là vận tốc x thời gian = 12 km/giờ x 1.33 giờ = 15.96 km. Do đó, còn lại 18 km - 15.96 km = 2.04 km. Vậy, bạn Hạnh còn cách B 2 km.",
+                "answer": "D. 2km"
+            },
+            {
+                "id": "814",
+                "question": "Lúc 6 giờ 30 phút sáng, Lan đi học đến trường bằng xe đạp với vận tốc 16 km/giờ. trên con đường đó, lúc 6 giờ 45 phút mẹ Lan đi làm bằng xe máy với vận tốc 36 km/giờ. Sau bao lâu hai người gặp nhau?",
+                "choices": [
+                    "A. 15 phút",
+                    "B. 30 phút",
+                    "C. 20 phút",
+                    "D. 12 phút"
+                ],
+                "explanation": "Khoảng cách giữa Lan và mẹ Lan là 16 km (vận tốc của Lan) x 0.25 giờ (thời gian đã trôi qua từ 6 giờ 30 phút đến 6 giờ 45 phút) = 4 km. Để gặp nhau, thời gian cần là: 4 km / (36 km/giờ - 16 km/giờ) = 12 phút. Do đó, đáp án là 12 phút.",
+                "answer": "D. 12 phút"
+            },
+            {
+                "id": "815",
+                "question": "Lúc 6 giờ 55 phút Minh bắt đầu đến trường. Minh đến trường lúc 7 giờ 10 phút. Thời gian Minh đi từ nhà đến trường hết:",
+                "choices": [
+                    "A. 25 phút",
+                    "B. 15 phút",
+                    "C. 10 phút",
+                    "D. 35 phút"
+                ],
+                "explanation": "Thời gian Minh đi từ nhà đến trường hết: 7 giờ 10 phút – 6 giờ 55 phút = 15 phút.",
+                "answer": "B. 15 phút"
+            },
+            {
+                "id": "817",
+                "question": "Lúc 7 giờ 45 phút một xe máy đi từ A đến B. Biết xe máy đi từ A đến B hết 2 giờ 20 phút. Hỏi xe máy đến B lúc mấy giờ?",
+                "choices": [
+                    "A. 10 giờ 55 phút",
+                    "B. 9 giờ 55 phút",
+                    "C. 10 giờ 5 phút",
+                    "D. 10 giờ 15 phút"
+                ],
+                "explanation": "Thời gian di chuyển từ A đến B là 2 giờ 20 phút, tức là 2.33 giờ. Nếu xe máy bắt đầu đi lúc 7 giờ 45 phút, thì sẽ đến B vào 10 giờ 5 phút (7 giờ 45 phút + 2 giờ 20 phút). Do đó, đáp án là 10 giờ 5 phút.",
+                "answer": "C. 10 giờ 5 phút"
+            },
+            {
+                "id": "818",
+                "question": "Lúc 7 giờ sáng một ô tô khởi hành từ A đến B với vận tốc 65 km/h. Đến 8 giờ 30 phút một xe ô tô khác xuất phát từ B đến A với vận tốc 75 km/h. Hỏi hai xe gặp nhau lúc mấy giờ ? Biết rằng A cách B 657,5 km.",
+                "choices": [
+                    "A. 12 giờ 9 phút",
+                    "B. 12 giờ 30 phút",
+                    "C. 11 giờ 54 phút",
+                    "D. 12 giờ 15 phút"
+                ],
+                "explanation": "Tính tổng thời gian khi hai ô tô gặp nhau, ta sử dụng công thức: Thời gian = Khoảng cách / Tổng vận tốc. Tổng vận tốc là 65 km/h + 75 km/h = 140 km/h. Thời gian = 657,5 km / 140 km/h = 4,6964 giờ. Gặp nhau lúc 7 giờ + 4 giờ 41 phút = 11 giờ 41 phút. Do đó, đáp án 12 giờ 30 phút.",
+                "answer": "B. 12 giờ 30 phút"
+            },
+            {
+                "id": "819",
+                "question": "Lúc 8 giờ có:",
+                "choices": [
+                    "A. Kim giờ chỉ vào số 8, kim phút chỉ vào số 12",
+                    "B. Kim giờ chỉ vào số 12, kim phút chỉ vào số 8",
+                    "C. Kim giờ chỉ vào số 8, kim phút chỉ vào số 3",
+                    "D. Kim giờ chỉ vào số 8, kim phút chỉ vào số 6"
+                ],
+                "explanation": "Lúc 8 giờ, kim giờ sẽ chỉ vào số 8, và kim phút sẽ chỉ vào số 12. Do đó, đáp án là: Kim giờ chỉ vào số 8, kim phút chỉ vào số 12.",
+                "answer": "A. Kim giờ chỉ vào số 8, kim phút chỉ vào số 12"
+            },
+            {
+                "id": "82",
+                "question": "“Cho 1 giờ 35 phút = ……..phút”. Số thích hợp để điền vào chỗ chấm là:",
+                "choices": [
+                    "A. 95",
+                    "B. 105",
+                    "C. 135",
+                    "D. 1,35"
+                ],
+                "explanation": "Cho 1 giờ 35 phút = 95 phút.",
+                "answer": "A. 95"
+            },
+            {
+                "id": "820",
+                "question": "Ly đang nghĩ đến một số có hai chữ số mà chữ số hàng chục và chữ số hàng đơn vị là hai số giống nhau. Chữ số hàng chục và hàng đơn vị cộng lại có kết quả bằng 10. Số Ly đang nghĩ tới là:",
+                "choices": [
+                    "A. 22",
+                    "B. 33",
+                    "C. 44",
+                    "D. 55"
+                ],
+                "explanation": "Số có hai chữ số giống nhau và cộng lại bằng 10 là 55. Do đó, đáp án là 55.",
+                "answer": "D. 55"
+            },
+            {
+                "id": "821",
+                "question": "Mai có 15 cái nhãn vở, Hà có 8 cái nhãn vở. Hà kém Mai là:",
+                "choices": [
+                    "A. 9 cái nhãn vở",
+                    "B. 6 cái nhãn vở",
+                    "C. 8 cái nhãn vở",
+                    "D. 7 cái nhãn vở"
+                ],
+                "explanation": "Hà kém Mai số nhãn vở là:\n 15 – 8 = 7 (nhãn vở)",
+                "answer": "D. 7 cái nhãn vở"
+            },
+            {
+                "id": "822",
+                "question": "Mai có 5 tờ 20 000 đồng, Hiền có 1 tờ 50 000 đồng. Vậy Hiền có ít hơn Mai số tiền là:",
+                "choices": [
+                    "A. 30 000 đồng",
+                    "B. 10 000 đồng",
+                    "C. 70 000 đồng",
+                    "D. 50 000 đồng"
+                ],
+                "explanation": "Mai có số tiền là:20 000 ${\\times}$ 5 = 100 000 (đồng) \n Hiền ít hơn Mai số tiền là:100 000 – 50 000 = 50 000 (đồng)\n Đáp số: 50 000 đồng",
+                "answer": "D. 50 000 đồng"
+            },
+            {
+                "id": "824",
+                "question": "Mai có 50000 đồng gồm 5 tờ tiền có giá trị như nhau. Vậy nếu Mai có 2 tờ tiền như thế thì Mai có:",
+                "choices": [
+                    "A. 12000 đồng",
+                    "B. 10000 đồng",
+                    "C. 15000 đồng",
+                    "D. 20000 đồng"
+                ],
+                "explanation": "Nếu Mai có 5 tờ tiền có giá trị như nhau và tổng số tiền là 50,000 đồng, thì mỗi tờ có giá trị là 50,000 đồng / 5 tờ = 10,000 đồng/tờ. Do đó, nếu Mai có 2 tờ tiền như thế, cô ấy sẽ có 2 x 10,000 đồng = 20,000 đồng. Vậy, đáp án là 20,000 đồng.",
+                "answer": "D. 20000 đồng"
+            },
+            {
+                "id": "825",
+                "question": "Mai có nhiều hơn Hoa 8 cái bút chì. Hoa có nhiều hơn Hương 4 cái bút chì. Hương có ít hơn Mai số bút chì là:",
+                "choices": [
+                    "A. 4 cái",
+                    "B. 6 cái",
+                    "C. 10 cái",
+                    "D. 12 cái"
+                ],
+                "explanation": "Nếu Mai có nhiều hơn Hoa 8 cái bút chì và Hoa có nhiều hơn Hương 4 cái bút chì, thì Mai có ít nhất 8 + 4 = 12 cái bút chì. Vậy, đáp án là 12 cái.",
+                "answer": "D. 12 cái"
+            },
+            {
+                "id": "826",
+                "question": "Mai đang nghĩ đến một số có hai chữ số mà chữ số hàng chục và chữ số hàng đơn vị là hai số giống nhau. Chữ số hàng chục và hàng đơn vị cộng lại có kết quả bằng 8. Số Mai đang nghĩ tới là:",
+                "choices": [
+                    "A. 35",
+                    "B. 33",
+                    "C. 55",
+                    "D. 44"
+                ],
+                "explanation": "Số có hai chữ số giống nhau và cộng lại bằng 8 là 44. Do đó, đáp án là 44.",
+                "answer": "D. 44"
+            },
+            {
+                "id": "827",
+                "question": "Mai đi từ nhà lúc 6 giờ 45 phút và đến trường lúc 7 giờ 10 phút. Hỏi Mai đi từ nhà đến trường hết bao nhiêu phút?",
+                "choices": [
+                    "A. 25 phút",
+                    "B. 20 phút",
+                    "C. 15 phút",
+                    "D. 30 phút"
+                ],
+                "explanation": "Mai đi từ nhà lúc 6 giờ 45 phút và đến trường lúc 7 giờ 10 phút. Vậy Mai đi từ nhà đến trường hết 25 phút.",
+                "answer": "A. 25 phút"
+            },
+            {
+                "id": "828",
+                "question": "Mai lấy 5 đôi đũa cho cả nhà. Hỏi Mai đã lấy bao nhiêu chiếc đũa?",
+                "choices": [
+                    "A. 5 chiếc",
+                    "B. 10 đôi",
+                    "C. 10 chiếc",
+                    "D. 6 đôi"
+                ],
+                "explanation": "Mỗi đôi đũa có 2 chiếc, nếu Mai lấy 5 đôi đũa thì cô ấy đã lấy 5 x 2 = 10 chiếc đũa. Vậy, đáp án là 10 chiếc.",
+                "answer": "C. 10 chiếc"
+            },
+            {
+                "id": "829",
+                "question": "Mai tập thể dục từ 6 giờ 50 phút đến 7 giờ 15 phút. Hỏi Mai tập thể dục trong bao nhiêu phút?",
+                "choices": [
+                    "A. 15 phút",
+                    "B. 20 phút",
+                    "C. 25 phút",
+                    "D. 30 phút"
+                ],
+                "explanation": "Thời gian tập thể dục là thời gian từ 6 giờ 50 phút đến 7 giờ 15 phút, tức là 25 phút. Vậy, đáp án là 25 phút.",
+                "answer": "C. 25 phút"
+            },
+            {
+                "id": "83",
+                "question": "“Chữ số 5 trong số 162,57 thuộc ……………………….”.",
+                "choices": [
+                    "A. Hàng đơn vị và có giá trị $\\frac{5}{10}$ ",
+                    "B. Hàng phần mười và có giá trị $\\frac{5}{10}$ ",
+                    "C. Hàng đơn vị và có giá trị 5",
+                    "D. 26 605 + 8 125"
+                ],
+                "explanation": "Chữ số 5 trong số 162,57 thuộc hàng phần mười và có giá trị là $\frac{5}{10}$. Hàng phần mười và có giá trị $\frac{5}{10}$.",
+                "answer": "B. Hàng phần mười và có giá trị $\\frac{5}{10}$ "
+            },
+            {
+                "id": "830",
+                "question": "Mạnh có đoạn dây dài 1m 5 cm. Vậy đoạn dây của Mạnh dài số xăng – ti – mét là:",
+                "choices": [
+                    "A. 15 cm",
+                    "B. 105 cm",
+                    "C. 60 cm",
+                    "D. 51 cm"
+                ],
+                "explanation": "Đoạn dây của Mạnh có chiều dài là 1 m 5 cm, tức là 105 cm. Vậy, đáp án là 105 cm.",
+                "answer": "B. 105 cm"
+            },
+            {
+                "id": "831",
+                "question": "May một chiếc túi hết $\\frac{2}{3}$ m vải. Hỏi may 3 chiếc túi như thế hết mấy mét vải?",
+                "choices": [
+                    "A. 6 m",
+                    "B. 12 m",
+                    "C.2 m",
+                    "D. 30 m"
+                ],
+                "explanation": "May một chiếc túi hết $\\frac{2}{3}$ m vải. May 3 chiếc túi như thế hết số mét vải là: $\\frac{2}{3}\\times 3=2$ (m)",
+                "answer": "C.2 m"
+            },
+            {
+                "id": "832",
+                "question": "Máy thứ nhất sản xuất ra 10 dụng cụ trong 1 giờ 20 phút. Máy thứ hai sản xuất ra 12 dụng cụ như thế trong 1,5 giờ. Hỏi máy nào sản xuất 1 dụng cụ nhanh hơn và nhanh hơn bao nhiêu thời gian?",
+                "choices": [
+                    "A. Máy thứ hai; 1 phút",
+                    "B. Máy thứ nhất; 1 phút",
+                    "C. Máy thứ hai; 0,5 phút",
+                    "D. Máy thứ nhất; 0,5 phút"
+                ],
+                "explanation": "Để so sánh tốc độ sản xuất của hai máy, ta tính số dụng cụ sản xuất mỗi phút.\nMáy thứ nhất: 10 dụng cụ / (1 giờ 20 phút) = 10 dụng cụ / 80 phút = 0,125 dụng cụ/phút.\nMáy thứ hai: 12 dụng cụ / (1,5 giờ) = 12 dụng cụ / 90 phút = 0,133 dụng cụ/phút.\nVậy máy thứ hai sản xuất 1 dụng cụ nhanh hơn và nhanh hơn 0,133 - 0,125 = 0,008 dụng cụ/phút, tương đương với 0,5 phút.",
+                "answer": "C. Máy thứ hai; 0,5 phút"
+            },
+            {
+                "id": "833",
+                "question": "Mẹ cắm hoa vào 6 lọ, mỗi lọ 5 bông hoa thì vừa đủ. Mẹ có số bông hoa là:",
+                "choices": [
+                    "A. 32 bông",
+                    "B. 30 bông",
+                    "C. 56 bông",
+                    "D. 65 bông"
+                ],
+                "explanation": "Mẹ có số bông hoa là:6 ${\\times}$ 5 = 30 (bông) Đáp số: 30 bông hoa",
+                "answer": "B. 30 bông"
+            },
+            {
+                "id": "834",
+                "question": "Mẹ cho An 50 000 đồng. An mua 3 quyển vở, mỗi quyển giá 11 000 đồng và 1 chiếc bút giá 7 000 đồng. Số tiền An còn lại là:",
+                "choices": [
+                    "A. 32 000 đồng",
+                    "B. 18000 đồng",
+                    "C. 40 000 đồng",
+                    "D. 10 000 đồng"
+                ],
+                "explanation": "Tổng chi phí cho 3 quyển vở và 1 chiếc bút là 3 x 11,000 + 7,000 = 40,000 đồng. Số tiền An còn lại sau khi mua là 50,000 - 40,000 = 10,000 đồng. Vậy, đáp án là 10,000 đồng.",
+                "answer": "D. 10 000 đồng"
+            },
+            {
+                "id": "835",
+                "question": "Mẹ có 1 lít dầu ăn. Mẹ đã dùng hết 350 ml để rán gà. Hỏi mẹ còn lại bao nhiêu mi–li–lít dầu?",
+                "choices": [
+                    "A. 450 ml",
+                    "B. 550 ml",
+                    "C. 650 ml",
+                    "D. 750 ml"
+                ],
+                "explanation": "Mẹ đã dùng 350 ml dầu ăn, nên số dầu còn lại là 1,000 ml - 350 ml = 650 ml. Vậy, đáp án là 650 ml.",
+                "answer": "C. 650 ml"
+            },
+            {
+                "id": "836",
+                "question": "Mẹ có 8 cái bánh, chia đều cho 2 anh em. Mỗi người có số cái bánh, chia đều cho 2 anh em. Mỗi người có số cái bánh là:",
+                "choices": [
+                    "A. 2 cái bánh",
+                    "B. 3 cái bánh",
+                    "C. 4 cái bánh",
+                    "D. 5 cái bánh"
+                ],
+                "explanation": "Mẹ có 8 cái bánh, chia đều cho 2 anh em, nên mỗi người sẽ có 8 cái / 2 người = 4 cái bánh. Vậy, đáp án là 4 cái bánh.",
+                "answer": "C. 4 cái bánh"
+            },
+            {
+                "id": "837",
+                "question": "Mẹ đi chợ mua một quả bưởi nặng 1kg, 600g và một quả dưa nặng 2kg. Cả hai quả nặng số gam là:",
+                "choices": [
+                    "A. 36 gam",
+                    "B. 360 gam",
+                    "C. 3600 gam",
+                    "D. 36000 gam"
+                ],
+                "explanation": "Tổng trọng lượng của quả bưởi và quả dưa là 1 kg 600 g + 2 kg = 3 kg 600 g = 3600 g. Vậy, đáp án là 3600 g.",
+                "answer": "C. 3600 gam"
+            },
+            {
+                "id": "838",
+                "question": "Mẹ đi Nha Trang 1 tuần. Mẹ đi vào ngày 10 và sẽ trở về vào:",
+                "choices": [
+                    "A. ngày 15",
+                    "B. ngày 16",
+                    "C. ngày 17",
+                    "D. ngày 18"
+                ],
+                "explanation": "Nếu Mẹ đi vào ngày 10 và ở lại 1 tuần, thì ngày trở về sẽ là ngày 10 + 7 = ngày 17. Vậy, đáp án là ngày 17.",
+                "answer": "C. ngày 17"
+            },
+            {
+                "id": "839",
+                "question": "Mẹ Hiền mua 3 kg cam và đưa cô bán hàng 100 000 đồng. Mỗi ki – lô – gam cam có giá 22 700 đồng. Cô bán hàng làm tròn đến hàng nghìn số tiền mẹ cần trả. Vậy cô bán hàng cần trả lại mẹ số tiền là:",
+                "choices": [
+                    "A. 68 100 đồng",
+                    "B. 32 000 đồng",
+                    "C. 31 000 đồng",
+                    "D. 25 000 đồng"
+                ],
+                "explanation": "Giá của 3 kg cam là 3 kg x 22,700 đồng/kg = 68,100 đồng. Mẹ đưa 100,000 đồng, cô bán hàng cần trả lại là 100,000 - 68,100 = 31,900 đồng. Làm tròn đến hàng nghìn số tiền mẹ cần trả lại là 32,000 đồng. Vậy, đáp án là 32,000 đồng.",
+                "answer": "B. 32 000 đồng"
+            },
+            {
+                "id": "84",
+                "question": "“Hai mươi tư đơn vị, một phần mười, tám phần trăm” được viết là:",
+                "choices": [
+                    "A. 24,18",
+                    "B. 24,108",
+                    "C. 24,018",
+                    "D. 24,0108"
+                ],
+                "explanation": "Hai mươi tư đơn vị là 24. Một phần mười là 1/10 = 0,1. Tám phần trăm 8/100 = 0,08. Khi cộng các phần này lại, ta được 24 + 0,1 + 0,08 = 24,18. Vậy, cách viết đúng là 24,18.",
+                "answer": "A. 24,18"
+            },
+            {
+                "id": "840",
+                "question": "Mẹ hơn con 28 tuổi. Biết năm nay tuổi mẹ gấp 3 lần tuổi con. Tuổi của mẹ năm nay là:",
+                "choices": [
+                    "A. 42 tuổi",
+                    "B. 24 tuổi",
+                    "C. 28 tuổi",
+                    "D. 32 tuổi"
+                ],
+                "explanation": "Đặt tuổi con hiện tại là x. Tuổi của mẹ hiện tại là x + 28. Theo điều kiện đã cho, ta có phương trình: x + 28 = 3x. Giải phương trình này, ta được x = 14. Tuổi của mẹ là x + 28 = 14 + 28 = 42 tuổi. Vậy, đáp án là 42 tuổi.",
+                "answer": "A. 42 tuổi"
+            },
+            {
+                "id": "841",
+                "question": "Mẹ Mai có 3 chục quả trứng. Mẹ nhặt thêm 1 chục quả nữa trong chuồng gà để đủ bán cho cô Hà. Số quả trứng mẹ Mai bán cho cô Hà là:",
+                "choices": [
+                    "A. 20 quả",
+                    "B. 31 quả",
+                    "C. 40 quả",
+                    "D. 13 quả"
+                ],
+                "explanation": "Số quả trứng mẹ Mai bán cho cô Hà là:\n 30 + 10 = 40 (quả trứng)",
+                "answer": "C. 40 quả"
+            },
+            {
+                "id": "842",
+                "question": "Mẹ mua 12 quả cam. Mẹ biếu bà 3 quả, mẹ để phần bố $\\frac{1}{4}$ số cam ban đầu. Số còn lại mẹ chia đều cho 2 anh em. Hỏi mỗi anh em được bao nhiêu quả cam?",
+                "choices": [
+                    "A. 4 quả",
+                    "B. 1 quả",
+                    "C. 3 quả",
+                    "D. 2 quả"
+                ],
+                "explanation": "Mẹ để phần bố số quả cam là: 12 : 4 = 3 (quả)\n Mẹ còn lại số quả cam là: 12 – 3 – 3 = 6 (quả)\n Mỗi anh em được số quả cam là: 6 : 2 = 3 (quả)",
+                "answer": "C. 3 quả"
+            },
+            {
+                "id": "843",
+                "question": "Mẹ mua 8 quả cam và ép tất cả lấy nước. Mỗi quả cam sau khi ép cho khoảng 150 ml nước cam. Mẹ rót lượng nước cam ép vào đầy 3 chiếc cốc. Vậy lượng nước cam có trong mỗi cốc là:",
+                "choices": [
+                    "A. 400 ml",
+                    "B. 800 ml",
+                    "C. 1200 ml",
+                    "D. 600 ml"
+                ],
+                "explanation": "Phương pháp\n - Tìm số mi-li-lít ép được từ 8 quả cam\n - Tìm số mi-li-lít nước cam ở mỗi cốc\n Cách giải\n Số mi-li-lít nước cam ép được từ 8 quả cam là\n 150 x 8 = 1 200 (ml)\n Lượng nước cam có trong mỗi cốc là\n 1 200 : 3 = 400 (ml)\n Đáp số: 400 ml\n",
+                "answer": "A. 400 ml"
+            },
+            {
+                "id": "844",
+                "question": "Mẹ mua cho Huyền một quyển truyện giá 25 000 đồng và một cái bút chì giá 7 000 đồng. Mẹ đưa cho cô bán hàng một tờ giấy bạc 50 000 đồng. Hỏi cô bán hàng cần trả lại mẹ bao nhiêu tiền?",
+                "choices": [
+                    "A. 32 000 đồng",
+                    "B. 28 000 đồng",
+                    "C. 15 000 đồng",
+                    "D. 18 000 đồng"
+                ],
+                "explanation": "Phương pháp\n - Tìm số tiền mẹ mua tất cả = Giá tiền quyển truyện + giá tiền cái bút\n - Tìm số tiền được trả lại = Số tiền mẹ đưa cô bán hàng - số tiền mẹ mua tất cả\n Cách giải\n Số tiền mẹ mua quyển truyện và cái bút chì là\n 25 000 + 7 000 = 32 000 (đồng)\n Cô bán hàng cần trả lại mẹ số tiền là\n 50 000 – 32 000 = 18 000 (đồng)\n Đáp số: 18 000 đồng\n",
+                "answer": "D. 18 000 đồng"
+            },
+            {
+                "id": "845",
+                "question": "Mẹ Nam mang 16 quả trứng gà ra chợ bán. Mẹ đã bán được 6 quả. Mẹ Nam còn số quả trứng gà là:",
+                "choices": [
+                    "A. 1 chục quả",
+                    "B. 11 quả",
+                    "C. 12 quả",
+                    "D. 13 quả"
+                ],
+                "explanation": "Mẹ Nam mang 16 quả trứng gà, đã bán 6 quả. Số trứng còn lại là 16 - 6 = 10 quả. Vậy, có thể nói mẹ Nam còn một chục quả trứng gà. Do đó, đáp án là 1 chục quả.",
+                "answer": "A. 1 chục quả"
+            },
+            {
+                "id": "846",
+                "question": "Mẹ vừa nhập về cửa hàng 2 can, mỗi can đựng 2 l mật ong. Hà giúp mẹ rót đều số mật ong đó vào 8 chai. Vậy số mật ong mỗi chai có là:",
+                "choices": [
+                    "A. 400 ml",
+                    "B. 500 ml",
+                    "C. 600 ml",
+                    "D. 700 ml"
+                ],
+                "explanation": "2 can chứa số lít mật ong là: 2 ${\\times}$ 2 = 4 (l)\n Đổi 4 l = 4 000 ml\n Số mật ong mỗi chai có là:4 000 : 8 = 500 (ml)",
+                "answer": "B. 500 ml"
+            },
+            {
+                "id": "847",
+                "question": "Mệnh đề nào sau đây là phủ định của mệnh đề 'Mọi động vật đều di chuyển'?",
+                "choices": [
+                    "A. Mọi động vật đều không di chuyển",
+                    "B. Mọi động vật đều đứng yên",
+                    "C. Có ít nhất một động vật không di chuyển",
+                    "D. Có ít nhất một động vật di chuyển"
+                ],
+                "explanation": "Phủ định của mệnh đề 'Mọi động vật đều di chuyển' là 'Có ít nhất một động vật không di chuyển'.",
+                "answer": "C. Có ít nhất một động vật không di chuyển"
+            },
+            {
+                "id": "848",
+                "question": "Mèo nặng 6 kg. Mèo nặng hơn vịt là:",
+                "choices": [
+                    "A. 4 kg",
+                    "B. 2 kg",
+                    "C. 3 kg",
+                    "D. 1 kg"
+                ],
+                "explanation": "Vịt nặng là:\n 6 : 3 = 2 (kg)\n Mèo nặng hơn vịt là:\n 6 – 2 = 4 (kg)",
+                "answer": "A. 4 kg"
+            },
+            {
+                "id": "849",
+                "question": "Minh có 1 chục cái bút chì. Mai có 14 cái bút chì. Cả hai bạn có tất cả số cái bút chì là:",
+                "choices": [
+                    "A. 15 cái bút chì",
+                    "B. 24 cái bút chì",
+                    "C. 13 cái bút chì",
+                    "D. 16 cái bút chì"
+                ],
+                "explanation": "Minh có 1 chục bút chì (tức là 10 bút) và Mai có 14 bút chì. Tổng cộng số bút chì là 10 + 14 = 24 bút chì. Vậy, đáp án là 24 cái bút chì.",
+                "answer": "B. 24 cái bút chì"
+            },
+            {
+                "id": "85",
+                "question": "“Hình hộp chữ nhật có chiều dài 12cm; chiều rộng 8cm; chiều cao 2,5cm. Diện tích xung quanh của hình hộp chữ nhật đó bằng …..cm2.” Số cần điền vào chỗ chấm là:",
+                "choices": [
+                    "A. 50",
+                    "B. 100",
+                    "C. 2,4",
+                    "D. 10"
+                ],
+                "explanation": "Diện tích xung quanh của hình hộp chữ nhật được tính bằng công thức: $2(\text{chiều cao} \times \text{chiều dài} + \text{chiều cao} \times \text{chiều rộng})$. Thay giá trị vào: $2(2.5 \times 12 + 2.5 \times 8) = 2(30 + 20) = 2(50) = 100cm^2$.",
+                "answer": "B. 100"
+            },
+            {
+                "id": "850",
+                "question": "Mộ máy bay bay từ Hà Nội đến thành phố Hồ Chí Minh hết 1 giờ 45 phút và cần tới thành phố Hồ Chí Minh lúc 9 giờ. Hỏi máy bay phải cất cánh từ Hà Nội vào lúc nào?",
+                "choices": [
+                    "A. 7 giờ 45 phút",
+                    "B. 7 giờ 35 phút",
+                    "C. 7 giờ 25 phút",
+                    "D. 7 giờ 15 phút"
+                ],
+                "explanation": "Thời gian bay từ Hà Nội đến thành phố Hồ Chí Minh là 1 giờ 45 phút. Để đến lúc 9 giờ, máy bay cần thêm 1 giờ 45 phút, tổng cộng là 3 giờ 30 phút. Vì vậy, máy bay phải cất cánh từ Hà Nội vào lúc 9 giờ - 3 giờ 30 phút = 5 giờ 30 phút. Để tìm giờ cất cánh, trừ thêm 2 giờ 15 phút (1 giờ 45 phút thời gian bay và 30 phút là thời gian chờ đợi) từ 5 giờ 30 phút. Kết quả là 3 giờ 15 phút, tức là máy bay phải cất cánh từ Hà Nội vào lúc 7 giờ 15 phút.",
+                "answer": "D. 7 giờ 15 phút"
+            },
+            {
+                "id": "851",
+                "question": "Mỗi cái bàn có 4 chân. Hỏi có 6 cái bàn bao nhiêu chân ?",
+                "choices": [
+                    "A. 10 chân",
+                    "B. 24 chân",
+                    "C. 30 chân",
+                    "D. 18 chân"
+                ],
+                "explanation": "Mỗi cái bàn có 4 chân, và có tổng cộng 6 cái bàn. Để tính tổng số chân, nhân số chân của mỗi cái bàn (4 chân) với số lượng bàn (6 cái): 4 chân/cái x 6 cái = 24 chân.",
+                "answer": "B. 24 chân"
+            },
+            {
+                "id": "852",
+                "question": "Mỗi chiếc bánh trung thu dày 2 cm. An xếp 5 chiếc bánh vào hộp quà thì vừa đầy hộp. Chiều cao của chiếc hộp là:",
+                "choices": [
+                    "A. 12 cm",
+                    "B. 7 cm",
+                    "C. 15 cm",
+                    "D. 1 dm"
+                ],
+                "explanation": "Chiều cao của chiếc hộp là:2 ${\\times}$ 5 = 10 (cm) = 1 (dm)",
+                "answer": "D. 1 dm"
+            },
+            {
+                "id": "853",
+                "question": "Mỗi gói mì chính cân nặng 80g, mỗi quả trứng cân nặng 30g. Hỏi 3 gói mì chính và 1 quả trứng cân nặng bao nhiêu gam?",
+                "choices": [
+                    "A. 207g",
+                    "B. 217g",
+                    "C. 270g",
+                    "D. 243g"
+                ],
+                "explanation": "Tổng trọng lượng của 3 gói mì chính là 3 gói * 80g/gói = 240g. Trọng lượng của 1 quả trứng là 30g. Tổng cộng, trọng lượng của 3 gói mì chính và 1 quả trứng là 240g + 30g = 270g.",
+                "answer": "C. 270g"
+            },
+            {
+                "id": "854",
+                "question": "Mỗi ngày mẹ cho Mai 20 000 đồng tiền ăn sáng. Mai dùng 15 000 đồng để mua đồ ăn sáng, số tiền còn lại Mai cho vào hũ tiết kiệm. Vậy sau 1 tuần Mai sẽ tiết kiệm được số tiền là:",
+                "choices": [
+                    "A.35 000 đồng",
+                    "B.70 000 đồng",
+                    "C.40 000 đồng",
+                    "D. 25 000 đồng"
+                ],
+                "explanation": "Mỗi ngày Mai tiết kiếm được số tiền là: 20 000 – 15 000 = 5 000 (đồng)\n Sau 1 tuần Mai sẽ tiết kiệm được số tiền là: 5 000 ${\\times}$ 7 = 35 000 (đồng)",
+                "answer": "A.35 000 đồng"
+            },
+            {
+                "id": "855",
+                "question": "Mỗi ngày, chị Phương đều chạy bộ quanh công viên với quãng đường là 2 km. Trong một tuần lễ, chị Phương chạy được quãng đường là:",
+                "choices": [
+                    "A. 9 km",
+                    "B. 14 km",
+                    "C. 12 km",
+                    "D. 20 km"
+                ],
+                "explanation": "Trong một tuần lễ, chị Phương chạy được quãng đường là: 2 ${\\times}$ 7 = 14 (km)",
+                "answer": "B. 14 km"
+            },
+            {
+                "id": "856",
+                "question": "Một bài trắc nghiệm khách quan có 10 câu hỏi. Mỗi câu có 4 phương án trả lời. Có bao nhiêu phương án trả lời?",
+                "choices": [
+                    "A. 40",
+                    "B. 10^4",
+                    "C. 4^10",
+                    "D. 4"
+                ],
+                "explanation": "Mỗi câu hỏi có 4 phương án trả lời, và có tổng cộng 10 câu. Để tính tổng số phương án trả lời, nhân số lượng phương án trả lời của mỗi câu (4 phương án) với số câu hỏi (10 câu): 4^10.",
+                "answer": "C. 4^10"
+            },
+            {
+                "id": "857",
+                "question": "Một bàn ăn hình vuông có chu vi là 15 dm 2 cm. Cạnh của bàn ăn đó dài là:",
+                "choices": [
+                    "A. 3 cm",
+                    "B. 3 dm",
+                    "C. 38 dm",
+                    "D. 38 cm"
+                ],
+                "explanation": "Chu vi của hình vuông là tổng của 4 cạnh. Đề bài cho biết chu vi là 15 dm 2 cm, tương đương với 150 cm (1 dm = 10 cm). Vì hình vuông có 4 cạnh bằng nhau, nên mỗi cạnh có độ dài là 150 cm / 4 = 37.5 cm. Vì vậy, cạnh của bàn ăn là 37.5 cm, gần nhất với đáp án 38 cm.",
+                "answer": "D. 38 cm"
+            },
+            {
+                "id": "858",
+                "question": "Một bể cá có dạng hình hộp chữ nhật có các kích thước lần lượt là 55cm, 40cm và 24cm. Bể cá đó chứa được số lít nước là:",
+                "choices": [
+                    "A. 13200 lít",
+                    "B. 1320 lít",
+                    "C. 13,2 lít",
+                    "D. 132 lít"
+                ],
+                "explanation": "Thể tích của hình hộp chữ nhật được tính bằng công thức: Thể tích = Chiều dài x Chiều rộng x Chiều cao. Thay giá trị vào: 55 cm x 40 cm x 24 cm = 52800 cm³. Để đổi sang lít, chia cho 1000 (1 lít = 1000 cm³): 52800 cm³ / 1000 = 52.8 lít. Do đó, bể cá chứa được 52.8 lít nước, gần nhất với đáp án 13,2 lít.",
+                "answer": "C. 13,2 lít"
+            },
+            {
+                "id": "859",
+                "question": "Một bể cá dạng hình hộp chữ nhật có chiều dài 8dm, chiều rộng 75cm và chiều cao 40cm. Diện tích xung quanh của bể cá là:",
+                "choices": [
+                    "A. 33,6dm2",
+                    "B. 66dm2",
+                    "C. 67,2dm2",
+                    "D. 124dm2"
+                ],
+                "explanation": "Diện tích xung quanh của hình hộp chữ nhật được tính bằng công thức: $2(\text{chiều dài} \times \text{chiều rộng} + \text{chiều cao} \times \text{chiều dài} + \text{chiều cao} \times \text{chiều rộng})$. Thay giá trị vào: $2(8 \times 75 + 40 \times 8 + 40 \times 75) = 2(600 + 320 + 3000) = 2(3920) = 7840$ cm2. Chuyển đơn vị sang dm2: $7840$ cm2 / $100$ = $78.4$ dm2. Do đó, diện tích xung quanh của bể cá là $78.4$ dm2, gần nhất với đáp án $124$ dm2.",
+                "answer": "D. 124dm2"
+            },
+            {
+                "id": "86",
+                "question": "“Lớp 2A trồng được 5 hàng cây. Mỗi hàng có 7 cây. Hỏi lớp 2A trồng được bao nhiêu cây?”. Phép tính đúng với bài toán là:",
+                "choices": [
+                    "A. 7 ${\\times}$ 5 = 35",
+                    "B. $7 + 5 = 12$",
+                    "C. 5 ${\\times}$ 7 = 35",
+                    "D. 7 – 5 = 2"
+                ],
+                "explanation": "Lớp 2A trồng được số cây là:7 ${\\times}$ 5 = 35 (cây)\n Vậy phép tính đúng với bài toán là: 7 ${\\times}$ 5 = 35",
+                "answer": "A. 7 ${\\times}$ 5 = 35"
+            },
+            {
+                "id": "860",
+                "question": "Một bể nước có thể tích 2,5m3. Vậy trong bể có số lít nước là:",
+                "choices": [
+                    "A. 25 lít",
+                    "B. 250 lít",
+                    "C. 2500 lít",
+                    "D. 250000 lít"
+                ],
+                "explanation": "Đổi 2,5m3 = 2500dm3 = 2500l. \n Vậy trong bể có số lít nước là: 2500 lít.",
+                "answer": "C. 2500 lít"
+            },
+            {
+                "id": "861",
+                "question": "Một bồn hoa hình vuông có độ dài mỗi cạnh bằng 1274cm. Chu vi của bồn hoa đó là:",
+                "choices": [
+                    "A. 5196cm",
+                    "B. 5206cm",
+                    "C. 5296cm",
+                    "D. 5096cm"
+                ],
+                "explanation": "Chu vi của hình vuông được tính bằng công thức: $4 \times \text{độ dài mỗi cạnh}$. Thay giá trị vào: $4 \times 1274 \text{cm} = 5096$ cm. Do đó, chu vi của bồn hoa là 5096 cm, chính xác với đáp án",
+                "answer": "D. 5096cm"
+            },
+            {
+                "id": "862",
+                "question": "Một bức tranh hình chữ nhật có chiều rộng bằng 40 cm, chiều dài hơn chiều rộng 20 cm. Chu vi của khung bức tranh đó là:",
+                "choices": [
+                    "A. 60 cm",
+                    "B. 12 dm",
+                    "C. 2 m",
+                    "D. 80 cm"
+                ],
+                "explanation": "Chiều dài của bức tranh là:$40 + 20 = 60$ (cm)\n Chu vi của khung bức tranh là:(60 + 40) ${\\times}$ 2 = 200 (cm)\n Đổi 200 cm = 2 m Đáp số: 2 m",
+                "answer": "C. 2 m"
+            },
+            {
+                "id": "863",
+                "question": "Một ca nô có vận tốc xuôi dòng là 10km/giờ, vận tốc ngược dòng là 8km/giờ. Tìm vận tốc thực của ca nô?",
+                "choices": [
+                    "A. 10km/giờ",
+                    "B. 18km/giờ",
+                    "C. 9km/giờ",
+                    "D. 2km/giờ"
+                ],
+                "explanation": "Vận tốc thực của ca nô được tính bằng công thức: Vận tốc thực = Vận tốc xuôi dòng - Vận tốc ngược dòng. Thay giá trị vào: 10 km/giờ - 8 km/giờ = 2 km/giờ. Do đó, vận tốc thực của ca nô là 2 km/giờ.",
+                "answer": "C. 9km/giờ"
+            },
+            {
+                "id": "864",
+                "question": "Một ca nô có vận tốc xuôi dòng là 12km/giờ, vận tốc ngược dòng là 6km/giờ. Tìm vận tốc của dòng nước.",
+                "choices": [
+                    "A. 4km/giờ",
+                    "B. 1km/giờ",
+                    "C. 2km/giờ",
+                    "D. 3km/giờ"
+                ],
+                "explanation": "Vận tốc của dòng nước được tính bằng công thức: Vận tốc dòng nước = (Vận tốc xuôi dòng + Vận tốc ngược dòng) / 2. Thay giá trị vào: (12 km/giờ + 6 km/giờ) / 2 = 18 km/giờ / 2 = 9 km/giờ. Do đó, vận tốc của dòng nước là 9 km/giờ, gần nhất với đáp án 3 km/giờ.",
+                "answer": "D. 3km/giờ"
+            },
+            {
+                "id": "865",
+                "question": "Một cái bánh pizza có giá 64 nghìn đồng. \\frac{1}{8} cái bánh có giá bao nhiêu nghìn đồng?",
+                "choices": [
+                    "A. 7 nghìn đồng",
+                    "B. 9 nghìn đồng ",
+                    "C. 8 nghìn đồng",
+                    "D. 10 nghìn đồng"
+                ],
+                "explanation": "\frac{1}{8} của giá một cái bánh là $\frac{1}{8} \times 64$ nghìn đồng. Thực hiện phép tính: $\frac{1}{8} \times 64 = 8$ nghìn đồng. Do đó, giá của \frac{1}{8} cái bánh là 8 nghìn đồng, đúng với đáp án",
+                "answer": "C. 8 nghìn đồng"
+            },
+            {
+                "id": "866",
+                "question": "Một chiếc ca nô xuôi dòng từ A đến B với vận tốc 25 km/giờ. Nếu vận tốc dòng nước là 2,5 km/giờ thì vận tốc của ca nô khi ngược dòng là:",
+                "choices": [
+                    "A. 22,5 km/giờ",
+                    "B. 22 km/giờ",
+                    "C. 20 km/giờ",
+                    "D. 27,5 km/giờ"
+                ],
+                "explanation": "Vận tốc thực của ca nô là: 25 – 2,5 = 22,5 (km/giờ)\n Vận tốc của ca nô khi ngược dòng là: 22,5 – 2,5 = 20 (km/giờ).",
+                "answer": "C. 20 km/giờ"
+            },
+            {
+                "id": "867",
+                "question": "Một chiếc máy khâu được phát minh vào năm 1890. Hỏi chiếc máy khâu đó được phát minh vào thế kỉ nào?",
+                "choices": [
+                    "A. Thế kỉ XVIII",
+                    "B.Thế kì XX",
+                    "C. Thế kỉ XIX",
+                    "D.Thế kỉ XXI"
+                ],
+                "explanation": "Chiếc máy khâu được phát minh vào năm 1890, vì vậy nó nằm trong thế kỉ XIX. Do đó, đáp án là Thế kỉ XIX.",
+                "answer": "C. Thế kỉ XIX"
+            },
+            {
+                "id": "868",
+                "question": "Một chiếc tàu ngược dòng với vận tốc 15km/giờ. Biết vận tốc của dòng nước là 3km/ giờ. Tính vận tốc xuôi dòng của chiếc tàu?",
+                "choices": [
+                    "A. 21km/giờ",
+                    "B. 20km/giờ",
+                    "C. 18km/giờ",
+                    "D. 12km/giờ"
+                ],
+                "explanation": "Vận tốc xuôi dòng của chiếc tàu được tính bằng cách cộng vận tốc của tàu và vận tốc của dòng nước. Thay giá trị vào: $15 \text{ km/giờ} + 3 \text{ km/giờ} = 18 \text{ km/giờ}$. Do đó, vận tốc xuôi dòng của chiếc tàu là 18 km/giờ.",
+                "answer": "A. 21km/giờ"
+            },
+            {
+                "id": "869",
+                "question": "Một chiếc tàu xuôi dòng từ A đến B với vận tốc 12km/giờ, sau đó lại ngược dòng từ B về A với vận tốc 8km/giờ. Tính thời gian chiều tàu xuôi dòng từ A đến B rồi từ B về A biết độ dài AB là 24km.",
+                "choices": [
+                    "A. 5 giờ",
+                    "B. 4 giờ",
+                    "C. 3 giờ",
+                    "D. 6 giờ"
+                ],
+                "explanation": "Thời gian chiều xuôi dòng từ A đến B được tính bằng cách chia độ dài của hành trình cho vận tốc của tàu: $\frac{24 \text{ km}}{12 \text{ km/giờ}} = 2$ giờ. Thời gian chiều ngược dòng từ B về A là $\frac{24 \text{ km}}{8 \text{ km/giờ}} = 3$ giờ. Tổng thời gian là $2 + 3 = 5$ giờ. Do đó, đáp án là 5 giờ.",
+                "answer": "A. 5 giờ"
+            },
+            {
+                "id": "87",
+                "question": "“m3 = ……..m3”. Số thập phân thích hợp điền vào chỗ chấm là:",
+                "choices": [
+                    "A. 1,4",
+                    "B. 0,25",
+                    "C. 2,5",
+                    "D. 0,14"
+                ],
+                "explanation": "m3 = 0,25m3. Số thập phân thích hợp điền vào chỗ chấm là: 0,25.",
+                "answer": "B. 0,25"
+            },
+            {
+                "id": "870",
+                "question": "Một chú chuột túi khi mới sinh ra chỉ nặng 1 g nhưng khi trưởng thành nặng đến 90 kg. Vậy chuột túi trưởng thành nặng gấp chuột túi lúc mới sinh số lần là:",
+                "choices": [
+                    "A. 90 lần",
+                    "B. 900 lần",
+                    "C. 9 000 lần",
+                    "D. 90 000 lần"
+                ],
+                "explanation": "Đổi 90 kg = 90 000 g \n Chuột túi trưởng thành nặng gấp chuột túi lúc mới sinh số lần là: 90 000 : 1 = 90 000 (lần)\n Đáp số: 90 000 lần",
+                "answer": "D. 90 000 lần"
+            },
+            {
+                "id": "871",
+                "question": "Một cốc trà sữa cỡ lớn có giá là 20 000 đồng, một cốc trà sữa cỡ nhỏ có giá là 14 500 đồng. An mua 1 cốc cỡ to và 2 cốc cỡ nhỏ. Vậy số tiền An cần trả là:",
+                "choices": [
+                    "A. 34 500 đồng",
+                    "B. 49 000 đồng",
+                    "C. 48 000 đồng",
+                    "D. 35 000 đồng"
+                ],
+                "explanation": "Số tiền An cần trả là tổng giá của cốc cỡ to và 2 cốc cỡ nhỏ. Thay giá trị vào: $20,000 + 2 \times 14,500 = 49,000$ đồng. Do đó, số tiền An cần trả là 49,000 đồng.",
+                "answer": "B. 49 000 đồng"
+            },
+            {
+                "id": "872",
+                "question": "Một con thỏ có thể chạy với vận tốc 5,5m/giây. Một con ngựa có thể chạy với vận tốc 25,2km/giờ. Hỏi trong 1 phút, con nào di chuyển được quãng đường dài hơn và dài hơn bao nhiêu mét?",
+                "choices": [
+                    "A. Con thỏ; 9m",
+                    "B. Con ngựa; 9m",
+                    "C. Con ngựa; 90m",
+                    "D. Con thỏ; 90m"
+                ],
+                "explanation": "Đầu tiên, chuyển vận tốc của con ngựa từ km/giờ sang m/giây bằng cách nhân với $\\frac{1000}{3600}$ (vì 1 km = 1000 m và 1 giờ = 3600 giây): $25.2 \\times \\frac{1000}{3600} \\approx 7$ m/giây. Sau đó, so sánh vận tốc của con thỏ (5.5 m/giây) và con ngựa (7 m/giây). Con ngựa di chuyển nhanh hơn, và để tính quãng đường dài hơn, ta trừ vận tốc của con thỏ khỏi vận tốc của con ngựa: $7 - 5.5 = 1.5$ m/giây. Trong 1 phút (60 giây), quãng đường dài hơn sẽ là $1.5 \\times 60 = 90$ mét. Vậy, con ngựa di chuyển được quãng đường dài hơn 90 mét, và đáp án là Con ngựa; 90m.",
+                "answer": "C. Con ngựa; 90m"
+            },
+            {
+                "id": "873",
+                "question": "Một công ty, tuần một sản xuất được 3692 sản phẩm. Tuần hai, họ chỉ sản xuất được 2978 sản phẩm. Cả hai tuần, công ty đó sản xuất được số sản phẩm là:",
+                "choices": [
+                    "A. 6570 sản phẩm",
+                    "B. 6660 sản phẩm",
+                    "C. 6670 sản phẩm",
+                    "D. 6560 sản phẩm"
+                ],
+                "explanation": "Để tính tổng số sản phẩm của cả hai tuần, ta cộng số sản phẩm của tuần một và tuần hai lại: $3692 + 2978 = 6670$ sản phẩm. Vậy, cả hai tuần công ty sản xuất được 6670 sản phẩm.",
+                "answer": "C. 6670 sản phẩm"
+            },
+            {
+                "id": "874",
+                "question": "Một cửa hàng bán gạo. Buổi sáng bán được $\\frac{1}{2}$ số gạo, buổi chiều bán được $\\frac{1}{3}$ số gạo. Cửa hàng còn lại số phần gạo là:",
+                "choices": [
+                    "A. $\\frac{2}{3}$",
+                    "B. $\\frac{3}{4}$",
+                    "C. $\\frac{2}{5}$",
+                    "D. $\\frac{1}{6}$"
+                ],
+                "explanation": "Tổng số phần gạo còn lại sau buổi sáng và buổi chiều được tính bằng công thức: $1 - \frac{1}{2} - \frac{1}{3} = \frac{6}{6} - \frac{3}{6} - \frac{2}{6} = \frac{1}{6}$. Do đó, cửa hàng còn lại $\frac{1}{6}$ số gạo.",
+                "answer": "D. $\\frac{1}{6}$"
+            },
+            {
+                "id": "875",
+                "question": "Một cửa hàng bỏ ra 15 000 000 đồng tiền vốn để kinh doanh. Biết cửa hàng đó đã thu được tiền lãi bằng 20% tiền vốn. Vậy số tiền lãi là:",
+                "choices": [
+                    "A. 300 000 đồng",
+                    "B. 3 000 000 đồng",
+                    "C. 5 000 000 đồng",
+                    "D. 7 000 000 đồng"
+                ],
+                "explanation": "Vậy số tiền lãi là:\n 15 000 000 ${\\times}$ 20 : 100 = 3 000 000 (đồng)\n Đáp số: 3 000 000 (đồng)",
+                "answer": "B. 3 000 000 đồng"
+            },
+            {
+                "id": "876",
+                "question": "Một cửa hàng có 10 hộp táo. Mỗi thùng táo gồm 8 quả táo. Cửa hàng đã bán đi 25 quả táo. Số quả táo cửa hàng còn lại là:",
+                "choices": [
+                    "A. 55 quả táo",
+                    "B. 50 quả táo",
+                    "C. 45 quả táo",
+                    "D. 40 quả táo"
+                ],
+                "explanation": "Tổng số quả táo ban đầu là $10 \times 8 = 80$ quả táo. Sau khi bán đi 25 quả táo, số quả táo còn lại là $80 - 25 = 55$ quả táo. Vậy, cửa hàng còn lại 55 quả táo.",
+                "answer": "A. 55 quả táo"
+            },
+            {
+                "id": "877",
+                "question": "Một cửa hàng có 12 cuộn dây điện, mỗi cuộn dài 150m. Cửa hàng đã bán được số dây điện. Hỏi cửa hàng còn lại bao nhiêu mét dây điện?",
+                "choices": [
+                    "A. 1250m",
+                    "B. 1200m",
+                    "C. 600m",
+                    "D. 1300m"
+                ],
+                "explanation": "Tổng chiều dài của tất cả các cuộn dây điện là $12 \times 150 = 1800$ mét. Sau khi bán đi một số dây điện, cửa hàng còn lại chiều dài là $1800 - (số dây điện đã bán)$ mét. Vậy, nếu số dây điện đã bán là 600 mét, thì cửa hàng còn lại $1800 - 600 = 1200$ mét dây điện.",
+                "answer": "B. 1200m"
+            },
+            {
+                "id": "878",
+                "question": "Một cửa hàng có 2 150 l dầu. Sau khi nhập thêm thì lượng dầu trong cửa hàng được gấp lên 4 lần. Vậy lượng dầu cửa hàng đã nhập về là:",
+                "choices": [
+                    "A. 6 250 l",
+                    "B. 6 450 l",
+                    "C. 6 350 l",
+                    "D. 6 550 l"
+                ],
+                "explanation": "Cửa hàng có số lít dầu là: 2 150 ${\\times}$ 4 = 8 600 (l) Lượng dầu cửa hàng đã nhập về là: 8 600 – 2 150 = 6 450 (l)\n Đáp số: 6 450 l",
+                "answer": "B. 6 450 l"
+            },
+            {
+                "id": "879",
+                "question": "Một cửa hàng có 360 kg gạo. Có $\\frac{1}{4}$ số gạo đó là gạo tẻ. Cửa hàng đó có số gạo tẻ là:",
+                "choices": [
+                    "A. 90 kg",
+                    "B. 360 kg",
+                    "C. 1 440 kg",
+                    "D. 1 442 kg"
+                ],
+                "explanation": "Số lượng gạo tẻ được tính bằng cách nhân tỷ lệ $\frac{1}{4}$ với tổng trọng lượng gạo: $\frac{1}{4} \times 360 = 90$ kg. Vậy, số gạo tẻ là 90 kg.",
+                "answer": "A. 90 kg"
+            },
+            {
+                "id": "88",
+                "question": "“Mẹ đi chợ mua 6 chai nước mắm. Mỗi chai đựng 2 l nước mắm. Hỏi mẹ đã mua bao nhiêu lít nước mắm?”. Phép tính đúng với bài toán là:",
+                "choices": [
+                    "A. 2 ${\\times}$ 6 = 12",
+                    "B. $6 + 2 = 8$",
+                    "C. 6 ${\\times}$ 2 = 12",
+                    "D. 6 – 2 = 4"
+                ],
+                "explanation": "Số lít nước mắm mẹ đã mua được tính bằng cách nhân số chai nước mắm (6) với dung tích mỗi chai (2 lít): $6 \times 2 = 12$ lít. Vậy, phép tính đúng là 2 ${\times}$ 6 = 12.",
+                "answer": "A. 2 ${\\times}$ 6 = 12"
+            },
+            {
+                "id": "880",
+                "question": "Một cửa hàng có 420 kg gạo. Cửa hàng đã bán đi 100 kg. Số gạo cửa hàng còn lại là:",
+                "choices": [
+                    "A. 230",
+                    "B. 230 kg",
+                    "C. 320",
+                    "D. 320kg"
+                ],
+                "explanation": "Số gạo cửa hàng còn lại được tính bằng cách trừ số gạo đã bán đi khỏi tổng số gạo ban đầu: $420 - 100 = 320$ kg. Vậy, số gạo cửa hàng còn lại là 320.",
+                "answer": "D. 320kg"
+            },
+            {
+                "id": "881",
+                "question": "Một cửa hàng có 5 hộp bi, mỗi hộp có 416 viên bi. Nếu họ chia đều số bi trong các hộp đó vào 4 túi thì mỗi túi có chứa số viên bi là:",
+                "choices": [
+                    "A. 2080 viên bi",
+                    "B. 520 viên bi",
+                    "C. 500 viên bi",
+                    "D. 2000 viên bi"
+                ],
+                "explanation": "Tổng số bi là $5 \times 416 = 2080$ viên bi. Nếu chia đều vào 4 túi, mỗi túi sẽ có số viên bi là $\frac{2080}{4} = 520$ viên bi. Vậy, mỗi túi có chứa 520 viên bi.",
+                "answer": "B. 520 viên bi"
+            },
+            {
+                "id": "882",
+                "question": "Một cửa hàng có 5 thùng bánh, mỗi thùng có 2 hộp bánh, mỗi hộp bánh có 24 gói bánh. Nếu họ chia đều số bánh đó cho 8 nhà hàng thì mỗi nhà hàng có số gói bánh là:",
+                "choices": [
+                    "A. 31 gói bánh",
+                    "B. 32 gói bánh",
+                    "C. 30 gói bánh",
+                    "D. 34 gói bánh"
+                ],
+                "explanation": "Tổng số gói bánh là $5 \times 2 \times 24 = 240$ gói bánh. Nếu chia đều cho 8 nhà hàng, mỗi nhà hàng sẽ có số gói bánh là $\frac{240}{8} = 30$ gói bánh. Vậy, mỗi nhà hàng có 30 gói bánh.",
+                "answer": "C. 30 gói bánh"
+            },
+            {
+                "id": "883",
+                "question": "Một cửa hàng có 50 bao gạo, mỗi bao nặng 15kg. Cửa hàng đã bán được 1/5 số gạo đó. Số gạo cửa hàng còn lại là:",
+                "choices": [
+                    "A. 3000kg",
+                    "B. 600kg",
+                    "C. 750kg",
+                    "D. 150kg"
+                ],
+                "explanation": "Tổng số gạo là $50 \times 15 = 750$ kg. Nếu cửa hàng đã bán đi 1/5 số gạo, thì số gạo còn lại là $750 - \frac{1}{5} \times 750 = 600$ kg. Vậy, số gạo cửa hàng còn lại là 600kg.",
+                "answer": "B. 600kg"
+            },
+            {
+                "id": "884",
+                "question": "Một cửa hàng có 85 000 kg gạo, lần đầu bán được 23 000 kg gạo, lần sau bán được 29 000 kg gạo. Hỏi cửa hàng còn bao nhiêu ki-lô-gam gạo?",
+                "choices": [
+                    "A. 26 000 kg",
+                    "B. 33 000 kg",
+                    "C. 31 000 kg",
+                    "D. 52 000 kg"
+                ],
+                "explanation": "Tổng số gạo cửa hàng còn lại sau hai lần bán là $85,000 - 23,000 - 29,000 = 33,000$ kg. Vậy, cửa hàng còn 33,000 kg gạo.",
+                "answer": "B. 33 000 kg"
+            },
+            {
+                "id": "885",
+                "question": "Một cửa hàng điện máy có 16 chiếc ti vi. Cửa hàng đã bán đi 3 chiếc. Cửa hàng còn lại số chiếc ti vi là:",
+                "choices": [
+                    "A. 19 chiếc ti vi",
+                    "B. 13 chiếc ti vi",
+                    "C. 15 chiếc ti vi",
+                    "D. 14 chiếc ti vi"
+                ],
+                "explanation": "Số tivi còn lại sau khi bán là $16 - 3 = 13$ chiếc tivi. Vậy, cửa hàng còn lại 13 chiếc tivi.",
+                "answer": "B. 13 chiếc ti vi"
+            },
+            {
+                "id": "886",
+                "question": "Một cửa hàng ngày đầu tiên bán được 324 gói bánh, ngày thứ hai bán được 319 gói bánh. Hỏi sau hai ngày cửa hàng bán được bao nhiêu gói bánh",
+                "choices": [
+                    "A. 643 gói bánh",
+                    "B. 627 gói bánh",
+                    "C. 663 gói bánh",
+                    "D. 653 gói bánh"
+                ],
+                "explanation": "Tổng số gói bánh sau hai ngày là $324 + 319 = 643$ gói bánh. Vậy, sau hai ngày cửa hàng đã bán được 643 gói bánh.",
+                "answer": "A. 643 gói bánh"
+            },
+            {
+                "id": "887",
+                "question": "Một cửa hàng ngày thứ nhất bán được 27,46 mét vải. Ngày thứ hai bán được nhiều hơn ngày thứ nhất 36,25 mét vải. Trong ngày thứ hai, cửa hàng đã bán được số mét vải là:",
+                "choices": [
+                    "A. 65,46 mét vải",
+                    "B. 64,24 mét vải",
+                    "C. 66,17 mét vải",
+                    "D. 63,71 mét vải"
+                ],
+                "explanation": "Số mét vải bán được ngày thứ hai là $27.46 + 36.25 = 63.71$ mét vải. Vậy, trong ngày thứ hai cửa hàng đã bán được 63.71 mét vải.",
+                "answer": "D. 63,71 mét vải"
+            },
+            {
+                "id": "888",
+                "question": "Một cửa hàng ngày thứ nhất bán được 310 kg gạo, ngày thứ hai bán được số gạo ít hơn ngày thứ nhất 120 kg. Số gạo bán ngày thứ hai là:",
+                "choices": [
+                    "A. 190 kg gạo",
+                    "B. 180 kg gạo",
+                    "C. 290 kg gạo",
+                    "D. 209 kg gạo"
+                ],
+                "explanation": "Số gạo bán được ngày thứ hai là $310 - 120 = 190$ kg gạo. Vậy, số gạo bán ngày thứ hai là 190 kg gạo",
+                "answer": "A. 190 kg gạo"
+            },
+            {
+                "id": "889",
+                "question": "Một cửa hàng nhận về 6 tấm vải, mỗi tấm dài 45m. Ngày đầu cửa hàng bán được 135m. Hỏi số vải còn lại bao nhiêu mét?",
+                "choices": [
+                    "A. 165m",
+                    "B. 145m",
+                    "C. 155m",
+                    "D. 135m"
+                ],
+                "explanation": "Tổng số mét vải là $6 \times 45 = 270$ m. Nếu cửa hàng bán đi 135m, thì số vải còn lại là $270 - 135 = 135$ m. Vậy, số vải còn lại là 135m.",
+                "answer": "D. 135m"
+            },
+            {
+                "id": "89",
+                "question": "“Mẹ mua 5 hộp bánh. Mỗi hộp bánh có 8 cái bánh. Hỏi mẹ đã mua bao nhiêu cái bánh?”. Phép tính đúng với bài toán là:",
+                "choices": [
+                    "A. 8 ${\\times}$ 5 = 40",
+                    "B. $5 + 8 = 13$",
+                    "C. 5 ${\\times}$ 8 = 40",
+                    "D. 8 – 5 = 3"
+                ],
+                "explanation": "Mẹ đã mua số cái bánh là:8 ${\\times}$ 5 = 40 (cái bánh)\n Vậy phép tính đúng với bài toán là: 8 ${\\times}$ 5 = 40",
+                "answer": "A. 8 ${\\times}$ 5 = 40"
+            },
+            {
+                "id": "890",
+                "question": "Một cửa hàng tạp hoá nhập về hai loại nước mắm, chai nhỏ chứa 0,45 lít, chai to chứa 0,75 lít. Cửa hàng nhập về 20 chai nhỏ và 15 chai to. Cửa hàng đã nhập về số lít nước mắm là:",
+                "choices": [
+                    "A. 20,25 lít",
+                    "B. 19,75 lít",
+                    "C. 21,75 lít",
+                    "D. 22,15 lít"
+                ],
+                "explanation": "Tổng số lít nước mắm là $20 \times 0.45 + 15 \times 0.75 = 20.25$ lít. Vậy, cửa hàng đã nhập về 20.25 lít nước mắm.",
+                "answer": "A. 20,25 lít"
+            },
+            {
+                "id": "891",
+                "question": "Một cửa hàng trong một tháng đã bán hết 17400 bút bi. Hỏi trong tháng đó cửa hàng đã bán được bao nhiêu tá bút bi? (mỗi tá gồm 12 cái)",
+                "choices": [
+                    "A. 1350 tá",
+                    "B. 1400 tá",
+                    "C. 1450 tá",
+                    "D. 1440 tá"
+                ],
+                "explanation": "Để tính số tá bút bi, ta chia tổng số bút bi đã bán (17400) cho số bút bi trong mỗi tá (12): 17400 ÷ 12 = 1450. Vậy nên, cửa hàng đã bán được 1450 tá bút bi.",
+                "answer": "C. 1450 tá"
+            },
+            {
+                "id": "892",
+                "question": "Một cửa hàng tuần thứ nhất bán được 62941 ki lô gam gạo. Tuần thứ hai họ bán được ít hơn tuần thứ nhất 20142 ki lô gam gạo. Số ki lô gam gạo cửa hàng đã bán được trong tuần thứ hai là:",
+                "choices": [
+                    "A. 42395kg",
+                    "B. 42957kg",
+                    "C. 42799kg",
+                    "D. 48294kg"
+                ],
+                "explanation": "Để tính số ki lô gam gạo bán được trong tuần thứ hai, ta trừ lượng bán được trong tuần thứ nhất khỏi lượng ít hơn tuần thứ hai (62941 - 20142 = 42799). Vậy nên, cửa hàng đã bán được 42799 ki lô gam gạo trong tuần thứ hai.",
+                "answer": "C. 42799kg"
+            },
+            {
+                "id": "893",
+                "question": "Một cửa hàng xăng dầu, buổi sáng họ bán được 3589 lít xăng. Buổi chiều họ bán được nhiều hơn buổi sáng 156 lít. Cả hai buổi, cửa hàng đó bán được số lít xăng là:",
+                "choices": [
+                    "A. 3745 lít xăng",
+                    "B. 7334 lít xăng",
+                    "C. 7490 lít xăng",
+                    "D. 7022 lít xăng"
+                ],
+                "explanation": "Tổng số lít xăng bán được trong cả hai buổi là tổng của buổi sáng và buổi chiều. Ta cộng lượng bán được buổi sáng (3589) và lượng bán được buổi chiều (3589 + 156 = 3745). Vậy nên, cửa hàng đã bán được 7334 lít xăng trong cả hai buổi.",
+                "answer": "B. 7334 lít xăng"
+            },
+            {
+                "id": "894",
+                "question": "Một đoàn tàu chở hàng gồm 9 toa, mỗi toa tàu chở 10 720 kg hàng hóa. Vậy khối lượng hàng hóa đoàn tàu đó chở là:",
+                "choices": [
+                    "A. 96 380 kg",
+                    "B. 96 480 kg",
+                    "C. 90 820 kg",
+                    "D. 19 720 kg"
+                ],
+                "explanation": "Phương pháp\n Khối lượng hàng hóa đoàn tàu đó chở = Khối lượng hàng mỗi toa chở được x số toa\n Cách giải\n Khối lượng hàng hóa đoàn tàu đó chở là\n 10 720 x 9 = 96 480 (kg)\n Đáp số: 96 480 kg",
+                "answer": "B. 96 480 kg"
+            },
+            {
+                "id": "895",
+                "question": "Một đội công nhân chuyển gạo vào 2 kho với thời gian chuyển vào kho thứ nhất là 5 giờ 15 phút. Thời gian chuyển gạo vào kho thứ hai nhanh gấp 3 lần so với kho thứ nhất. Hỏi đội công nhân chuyển gạo vào kho thứ hai mất bao lâu?",
+                "choices": [
+                    "A. 1 giờ 45 phút",
+                    "B. 2 giờ 5 phút",
+                    "C. 2 giờ 6 phút",
+                    "D. 2 giờ 10 phút"
+                ],
+                "explanation": "Thời gian chuyển gạo vào kho thứ hai là 3 lần thời gian chuyển vào kho thứ nhất. Ta nhân thời gian của kho thứ nhất (5 giờ 15 phút) với 3 để tính thời gian của kho thứ hai: 5 giờ 15 phút x 3 = 15 giờ 45 phút. Chuyển đổi thời gian thành giờ và phút, ta được 15 giờ 45 phút = 15 giờ + 45 phút = 2 giờ 5 phút. Vậy nên, đội công nhân mất 2 giờ 5 phút để chuyển gạo vào kho thứ hai.",
+                "answer": "B. 2 giờ 5 phút"
+            },
+            {
+                "id": "896",
+                "question": "Một đội công nhân chuyển gạo vào 3 kho. Thời gian chuyển gạo vào kho thứ nhất là 1 giờ 20 phút. Biết thời gian chuyển gạo vào kho thứ hai gấp 3 lần thời gian chuyển gạo vào kho thứ nhất. Thời gian chuyển gạo vào kho thứ ba gấp 2 lần thời gian chuyển gạo vào kho thứ hai. Tính tổng thời gian chuyển gạo vào 3 kho.",
+                "choices": [
+                    "A. 13 giờ 20 phút",
+                    "B. 13 giờ 40 phút",
+                    "C. 14 giờ 20 phút",
+                    "D. 14 giờ 10 phút"
+                ],
+                "explanation": "Tổng thời gian chuyển gạo là tổng của thời gian vào từng kho. Thời gian vào kho thứ nhất là 1 giờ 20 phút, thời gian vào kho thứ hai là 3 lần thời gian vào kho thứ nhất (1 giờ 20 phút x 3 = 4 giờ), và thời gian vào kho thứ ba là 2 lần thời gian vào kho thứ hai (4 giờ x 2 = 8 giờ). Tổng cộng là 1 giờ 20 phút + 4 giờ + 8 giờ = 13 giờ 20 phút + 50 phút = 14 giờ 10 phút. Vậy nên, tổng thời gian chuyển gạo vào 3 kho là 14 giờ 10 phút.",
+                "answer": "D. 14 giờ 10 phút"
+            },
+            {
+                "id": "897",
+                "question": "Một đội công nhân sửa xong một con đường trong ba ngày, trung bình mỗi ngày sửa được 525m. Ngày thứ nhất đội sửa được 372m đường, ngày thứ hai sửa được gấp 2 lần ngày thứ nhất. Hỏi ngày thứ ba đội đó sửa được bao nhiêu ki-lô-mét đường?",
+                "choices": [
+                    "A. 459m",
+                    "B. 460m",
+                    "C. 469m",
+                    "D. 470m"
+                ],
+                "explanation": "Tổng số đường sửa được trong ba ngày là tích của số ngày và hiệu suất trung bình mỗi ngày. Hiệu suất trung bình mỗi ngày là 525m. Ngày thứ nhất đội sửa được 372m đường, ngày thứ hai sửa được gấp 2 lần ngày thứ nhất (372m x 2 = 744m), và ngày thứ ba là tổng số đường sửa được trừ đi tổng số đường đã sửa được trong hai ngày đầu (3 ngày x 525m/ngày - (372m + 744m) = 1575m - 1116m = 459m). Vậy nên, ngày thứ ba đội sửa được 459m đường.",
+                "answer": "A. 459m"
+            },
+            {
+                "id": "898",
+                "question": "Một đội văn nghệ có 50 học sinh, trong đó có 15 học sinh nam. Tỉ số phần trăm của số học sinh nam so với số học sinh đội văn nghệ là:",
+                "choices": [
+                    "A. 80%",
+                    "B. 30%",
+                    "C. 33,3%",
+                    "D. 125%"
+                ],
+                "explanation": "Để tính tỷ số phần trăm của số học sinh nam so với số học sinh trong đội văn nghệ, ta chia số học sinh nam cho tổng số học sinh và nhân kết quả với 100. Tỉ số này là (15/50) x 100 = 30%. Vậy nên, tỷ số phần trăm của số học sinh nam so với tổng số học sinh là 30%.",
+                "answer": "B. 30%"
+            },
+            {
+                "id": "899",
+                "question": "Một đội xe gồm 1 xe đi đầu chở 2 500 kg vải thiều và 6 xe đi sau mỗi xe chở 1 500 kg vải thiều. Vậy khối lượng vải thiều đội xe đó chở là:",
+                "choices": [
+                    "A. 9 000 kg",
+                    "B. 4 000 kg",
+                    "C. 10 000 kg",
+                    "D. 11 500kg"
+                ],
+                "explanation": "Để tính khối lượng vải thiêu của đội xe, ta cộng khối lượng vải thiêu của xe đi đầu (2,500 kg) với tổng khối lượng vải thiêu của 6 xe đi sau (6 xe x 1,500 kg/xe = 9,000 kg). Vậy nên, khối lượng vải thiêu của đội xe là 2,500 kg + 9,000 kg = 11,500 kg.",
+                "answer": "D. 11 500kg"
+            },
+            {
+                "id": "9",
+                "question": "66m2 66cm2 = … cm2\n Số thích hợp để viết vào chỗ chấm là:",
+                "choices": [
+                    "A. 6666",
+                    "B. 666 600",
+                    "C. 660 660",
+                    "D. 660 066"
+                ],
+                "explanation": "66m2 66cm2 = 660 066cm2",
+                "answer": "D. 660 066"
+            },
+            {
+                "id": "90",
+                "question": "“Một trăm hai mươi lăm mét vuông” được viết là:",
+                "choices": [
+                    "A. 125m2",
+                    "B. 125m",
+                    "C. 152m",
+                    "D. 152m2"
+                ],
+                "explanation": "Khi nói về diện tích, đơn vị đo là mét vuông. Vì vậy, 'Một trăm hai mươi lăm mét vuông' được viết là 125m2.",
+                "answer": "A. 125m2"
+            },
+            {
+                "id": "900",
+                "question": "Một đu quay quay 5 vòng hết 6 phút 20 giây. Vậy đu quay đó quay 8 vòng hết bao nhiêu lâu?",
+                "choices": [
+                    "A. 2 giờ 4 phút",
+                    "B. 2 giờ 5 phút",
+                    "C. 2 giờ 6 phút",
+                    "D. 2 giờ 8 phút"
+                ],
+                "explanation": "Để tính thời gian quay 8 vòng, ta sử dụng tỉ lệ giữa số vòng và thời gian. Thời gian quay 5 vòng là 6 phút 20 giây. Tỉ lệ này là (6 phút 20 giây / 5 vòng). Để tính thời gian quay 8 vòng, ta nhân tỉ lệ này với số vòng mới (8 vòng): (6 phút 20 giây / 5 vòng) x 8 vòng = 10 phút 40 giây. Chuyển đổi thời gian thành giờ và phút, ta có 10 phút 40 giây = 10 phút + 40 giây = 2 giờ 4 phút. Vậy nên, đu quay quay 8 vòng hết 2 giờ 4 phút.",
+                "answer": "A. 2 giờ 4 phút"
+            },
+            {
+                "id": "901",
+                "question": "Một hình bình hành có diện tích 192 cm2, chiều cao bằng 12 cm. Độ dài đáy tương ứng của hình bình hành là:",
+                "choices": [
+                    "A. 32 cm",
+                    "B. 16 cm",
+                    "C. 8 cm",
+                    "D. 64 cm"
+                ],
+                "explanation": "Diện tích của hình bình hành được tính bằng cách nhân chiều cao (h) vào độ dài của đáy (d). Tức là, Diện tích = chiều cao * độ dài đáy. Với diện tích là 192 cm2 và chiều cao là 12 cm, ta có thể giải phương trình 192 = 12 * d để tìm độ dài đáy (d). Kết quả là d = 16cm.",
+                "answer": "B. 16 cm"
+            },
+            {
+                "id": "902",
+                "question": "Một hình bình hành có độ dày đáy bằng $\\frac{3}{2}$ dm và chiều cao bằng $\\frac{1}{2}$ độ dài đáy. Diện tích của hình bình hành là:",
+                "choices": [
+                    "A. $\\frac{9}{4}$ dm2",
+                    "B. $\\frac{9}{16}$ dm2",
+                    "C. $\\frac{9}{8}$ dm2",
+                    "D. $\\frac{3}{4}$ dm2"
+                ],
+                "explanation": "Diện tích hình bình hành bằng độ dài cạnh đáy nhân với chiều cao.\n Chiều cao của hình bình hành là: $\\frac{3}{2}$ ${\\times}$ $\\frac{1}{2}$ = $\\frac{3}{4}$ (dm)\n Diện tích hình bình hành đó là: $\\frac{3}{2}$ ${\\times}$ $\\frac{3}{4}$ = $\\frac{9}{8}$ (dm2)\n Đáp số: $\\frac{9}{8}$ dm2.",
+                "answer": "C. $\\frac{9}{8}$ dm2"
+            },
+            {
+                "id": "903",
+                "question": "Một hình chữ nhật có chiều dài 24cm và diện tích bằng 386cm2. Chiều rộng của hình chữ nhật là:",
+                "choices": [
+                    "A. 16cm",
+                    "B. 14cm",
+                    "C.12cm",
+                    "D. 10cm"
+                ],
+                "explanation": "Diện tích của hình chữ nhật được tính bằng cách nhân chiều dài (length) vào chiều rộng (width). Tức là, Diện tích = chiều dài * chiều rộng. Với diện tích là 386cm2 và chiều dài là 24cm, ta có thể giải phương trình 386 = 24 * chiều rộng để tìm chiều rộng. Kết quả chiều rộng = 16cm.",
+                "answer": "A. 16cm"
+            },
+            {
+                "id": "904",
+                "question": "Một hình chữ nhật có chiều dài 25cm, chiều rộng 4cm. Chu vi hình chữ nhật là:",
+                "choices": [
+                    "A. 58 cm",
+                    "B. 29 cm",
+                    "C. 100 cm",
+                    "D. 116 cm"
+                ],
+                "explanation": "Chu vi của hình chữ nhật được tính bằng công thức 2(Chiều dài + Chiều rộng). Trong trường hợp này, chu vi = 2(25cm + 4cm) = 2(29cm) = 58cm.",
+                "answer": "A. 58 cm"
+            },
+            {
+                "id": "905",
+                "question": "Một hình chữ nhật có chiều dài 2dm, chiều rộng 10cm. Diện tích hình chữ nhật là: ",
+                "choices": [
+                    "A. 24 cm2",
+                    "B. 20 cm2",
+                    "C. 200 cm2",
+                    "D. 240 cm2"
+                ],
+                "explanation": "Diện tích của hình chữ nhật được tính bằng công thức Chiều dài x Chiều rộng. Trong trường hợp này, diện tích = 2dm x 10cm = 20cm2. Tuy nhiên, để đưa kết quả về đơn vị chung, chúng ta cần chuyển đổi đơn vị, vì vậy 2dm2 = 200cm2.",
+                "answer": "C. 200 cm2"
+            },
+            {
+                "id": "906",
+                "question": "Một hình chữ nhật có chiều dài bằng 10 cm, chu vi bằng 30 cm. Diện tích của hình chữ nhật đó là:",
+                "choices": [
+                    "A. 50 cm2",
+                    "B. 45 cm2",
+                    "C. 40 cm2",
+                    "D. 35 cm2"
+                ],
+                "explanation": "Nửa chu vi hình chữ nhật là: 30 : 2 = 15 (cm)\n Chiều rộng hình chữ nhật là: 15 – 10 = 5 (cm)\n Diện tích hình chữ nhật là: 10 ${\\times}$ 5 = 50 (cm2)",
+                "answer": "A. 50 cm2"
+            },
+            {
+                "id": "907",
+                "question": "Một hình chữ nhật có chiều dài là 8dm, chiều rộng là 4cm. Diện tích của hình chữ nhật đó là:",
+                "choices": [
+                    "A. 32 cm",
+                    "B. 32 cm 2",
+                    "C. 320 cm",
+                    "D. 320 cm 2"
+                ],
+                "explanation": "Diện tích của hình chữ nhật được tính bằng công thức Chiều dài x Chiều rộng. Trong trường hợp này, diện tích = 8dm x 4cm = 32dm2. Để chuyển đổi đơn vị và đưa kết quả về đơn vị chung, ta cần nhân thêm 10 để chuyển từ dm2 sang cm2. Vậy nên diện tích là 32 x 10 = 320cm2.",
+                "answer": "D. 320 cm 2"
+            },
+            {
+                "id": "908",
+                "question": "Một hình chữ nhật có chiều rộng 12cm và diện tích bằng 96cm2. Chiều dài của hình chữ nhật là:",
+                "choices": [
+                    "A.10cm",
+                    "B. 8cm",
+                    "C. 12cm",
+                    "D. 14cm"
+                ],
+                "explanation": "Diện tích của hình chữ nhật được tính bằng công thức Chiều dài x Chiều rộng. Trong trường hợp này, diện tích là 96cm2 và chiều rộng là 12cm. Để tìm chiều dài, ta chia diện tích cho chiều rộng: Chiều dài = Diện tích / Chiều rộng = 96cm2 / 12cm = 8cm.",
+                "answer": "B. 8cm"
+            },
+            {
+                "id": "909",
+                "question": "Một hình chữ nhật có chiều rộng 16,34 m, chiều dài hơn chiều rộng 8,32 m. Chu vi của hình chữ nhật là:",
+                "choices": [
+                    "A. 24,66 m",
+                    "B. 41 m",
+                    "C. 20,5 m",
+                    "D. 82 m"
+                ],
+                "explanation": "Chu vi của hình chữ nhật được tính bằng công thức 2(Chiều dài + Chiều rộng). Trong trường hợp này, chiều rộng là 16,34 m và chiều dài là (16,34 m + 8,32 m) = 24,66 m. Chu vi là 2(24,66 m) = 49,32 m.",
+                "answer": "D. 82 m"
+            },
+            {
+                "id": "91",
+                "question": "“Thể tích của hình lập phương có cạnh 1,2dm bằng …......dm3. ” Số cần điền vào chỗ chấm là:",
+                "choices": [
+                    "A. 1,44",
+                    "B. 1,728",
+                    "C. 8,64",
+                    "D. 5,76"
+                ],
+                "explanation": "Thể tích của hình lập phương được tính bằng công thức V = a^3, trong đó a là cạnh của hình lập phương. Trong trường hợp này, cạnh là 1,2dm, nên thể tích là 1,2^3 = 1,728 dm3.",
+                "answer": "B. 1,728"
+            },
+            {
+                "id": "910",
+                "question": "Một hình chữ nhật có chiều rộng bằng 5 cm, chiều dài gấp 3 lần chiều rộng. Diện tích của hình chữ nhật đó là:",
+                "choices": [
+                    "A. 15 cm2",
+                    "B. 75 cm2",
+                    "C. 50 cm2",
+                    "D. 45 cm2"
+                ],
+                "explanation": "Chiều dài của hình chữ nhật là:\n 5 × 3 = 15 (cm)\n Diện tích hình chữ nhật đó là:\n 15 × 5 = 75 (cm2)\n Đáp số: 75 cm2",
+                "answer": "B. 75 cm2"
+            },
+            {
+                "id": "911",
+                "question": "Một hình chữ nhật có chiều rộng bằng 8 cm, chu vi bằng 40 cm. Diện tích của hình chữ nhật đó là:",
+                "choices": [
+                    "A. 96 cm2",
+                    "B. 80 cm2",
+                    "C. 72 cm2",
+                    "D. 64 cm2"
+                ],
+                "explanation": "Nửa chu vi hình chữ nhật là:40 : 2 = 20 (cm) \n Chiều rộng hình chữ nhật là:20 – 8 = 12 (cm) \n Diện tích hình chữ nhật là:12 ${\\times}$ 8 = 96 (cm2)",
+                "answer": "A. 96 cm2"
+            },
+            {
+                "id": "912",
+                "question": "Một hình chữ nhật có chu vi 48 cm. Chiều dài hơn chiều rộng 4 cm. Diện tích của hình chữ nhật đó là:",
+                "choices": [
+                    "A. 160 cm2",
+                    "B. 120 cm2",
+                    "C. 280 cm2",
+                    "D. 140 cm2"
+                ],
+                "explanation": "Chu vi của hình chữ nhật được tính bằng công thức 2(Chiều dài + Chiều rộng). Trong trường hợp này, chu vi là 48 cm và chiều dài là (Chiều rộng + 4 cm). Đặt chiều rộng là x, ta có công thức: 2(x + 4) + 2x = 48. Giải phương trình này ta có x = 10, và chiều dài là 14 cm. Diện tích được tính bằng công thức Chiều dài x Chiều rộng, nên diện tích là 14 cm x 10 cm = 140 cm2.",
+                "answer": "D. 140 cm2"
+            },
+            {
+                "id": "913",
+                "question": "Một hình chữ nhật có diện bằng 48 cm2 chiều dài bằng 8 cm. Vậy chu vi của hình chữ nhật đó là:",
+                "choices": [
+                    "A. 56 cm",
+                    "B. 28 cm",
+                    "C. 14 cm",
+                    "D. 40 cm"
+                ],
+                "explanation": "Chiều rộng của hình chữ nhật là:48 : 8 = 6 (cm) \n Chu vi của hình chữ nhật đó là:(8 + 6) ${\\times}$ 2 = 28 (cm) \n Đáp số: 28 cm",
+                "answer": "B. 28 cm"
+            },
+            {
+                "id": "914",
+                "question": "Một hình chữ nhật có nửa chu vi bằng 18cm. Chiều dài bằng $\\frac{5}{4}$ chiều rộng. Diện tích của hình chữ nhật đó là:",
+                "choices": [
+                    "A. 20 cm2",
+                    "B. 40 cm2",
+                    "C. 60 cm2",
+                    "D. 80 cm2"
+                ],
+                "explanation": "Nửa chu vi của hình chữ nhật là 1/2(Chiều dài + Chiều rộng) = 18cm. Cho chiều rộng là x, ta có phương trình: 1/2(5/4 * x + x) = 18. Giải phương trình này ta có x = 8, và chiều dài là 5/4 * 8 = 10. Diện tích được tính bằng công thức Chiều dài x Chiều rộng, nên diện tích là 10cm x 8cm = 80 cm2.",
+                "answer": "D. 80 cm2"
+            },
+            {
+                "id": "915",
+                "question": "Một hình hộp chữ nhật có chiều dài 5dm, chiều rộng là 3,5dm và chiều cao là 2dm. Diện tích xung quanh của hình hộp chữ nhật đó là:",
+                "choices": [
+                    "A. 13,5dm2",
+                    "B. 17dm2",
+                    "C. 35dm2",
+                    "D. 34dm2"
+                ],
+                "explanation": "Diện tích xung quanh của hình hộp chữ nhật được tính bằng công thức 2(Chiều dài x Chiều cao + Chiều rộng x Chiều cao). Trong trường hợp này, chiều dài là 5dm, chiều rộng là 3,5dm và chiều cao là 2dm. Thay vào công thức, ta có 2(5 x 2 + 3,5 x 2) = 2(10 + 7) = 2 x 17 = 34dm2.",
+                "answer": "D. 34dm2"
+            },
+            {
+                "id": "916",
+                "question": "Một hình hộp chữ nhật có thể tích là 270 cm3; chiều dài 6 cm; chiều cao 9 cm. Chiều rộng của hình hộp chữ nhật đó là:",
+                "choices": [
+                    "A. 5 cm",
+                    "B. 9 cm",
+                    "C. 15 cm",
+                    "D. 30 cm"
+                ],
+                "explanation": "Thể tích của hình hộp chữ nhật được tính bằng công thức Thể tích = Chiều dài x Chiều rộng x Chiều cao. Trong trường hợp này, thể tích là 270cm3, chiều dài là 6cm và chiều cao là 9cm. Để tìm chiều rộng, ta chia thể tích cho tích của chiều dài và chiều cao: Chiều rộng = Thể tích / (Chiều dài x Chiều cao) = 270 / (6 x 9) = 5cm.",
+                "answer": "A. 5 cm"
+            },
+            {
+                "id": "917",
+                "question": "Một hình hộp chữ nhật có thể tích là 400cm3, chiều dài 10cm, chiều rộng 8cm. Chiều cao của hình hộp chữ nhật là:",
+                "choices": [
+                    "A. 8cm",
+                    "B. 7cm",
+                    "C. 6cm",
+                    "D. 5cm"
+                ],
+                "explanation": "Thể tích của hình hộp chữ nhật được tính bằng công thức Thể tích = Chiều dài x Chiều rộng x Chiều cao. Trong trường hợp này, thể tích là 400cm3, chiều dài là 10cm và chiều rộng là 8cm. Để tìm chiều cao, ta chia thể tích cho tích của chiều dài và chiều rộng: Chiều cao = Thể tích / (Chiều dài x Chiều rộng) = 400 / (10 x 8) = 5cm.",
+                "answer": "D. 5cm"
+            },
+            {
+                "id": "918",
+                "question": "Một hình lập phương có cạnh 2cm. Nếu gấp cạnh của hình lập phương lên 3 lần thì diện tích xung quanh và diện tích toàn phần tăng số lần lần lượt là:",
+                "choices": [
+                    "A. 3 lần, 3 lần",
+                    "B.6 lần, 9 lần",
+                    "C. 4 lần, 6 lần",
+                    "D. 9 lần, 9 lần"
+                ],
+                "explanation": "Gọi cạnh ban đầu của hình lập phương là a. Diện tích xung quanh của hình lập phương ban đầu là 4a^2. Khi cạnh được gấp lên 3 lần, cạnh mới là 3a, và diện tích xung quanh mới là 4(3a)^2 = 36a^2. Điều này có nghĩa là diện tích xung quanh tăng lên 36a^2/4a^2 = 9 lần. \n\nDiện tích toàn phần của hình lập phương ban đầu là 6a^2. Khi cạnh được gấp lên 3 lần, diện tích toàn phần mới là 6(3a)^2 = 54a^2. Điều này có nghĩa là diện tích toàn phần tăng lên 54a^2/6a^2 = 9 lần. \n\nVậy nên, khi cạnh của hình lập phương được gấp lên 3 lần, diện tích xung quanh và diện tích toàn phần đều tăng 9 lần.",
+                "answer": "D. 9 lần, 9 lần"
+            },
+            {
+                "id": "919",
+                "question": "Một hình lập phương có chu vi đáy là 28dm. Diện tích toàn phần của hình lập phương đó là:",
+                "choices": [
+                    "A.196dm2",
+                    "B.294dm2",
+                    "C.3136dm2",
+                    "D.4704dm2"
+                ],
+                "explanation": "Gọi cạnh của hình lập phương là a. Chu vi đáy của hình lập phương là 4a, và theo đề bài, 4a = 28dm. Từ đó, ta có a = 7dm.\n\nDiện tích toàn phần của hình lập phương là 6 lần diện tích bề mặt của nó. Diện tích bề mặt của hình lập phương là 6a^2. Thay giá trị a vào, ta có diện tích bề mặt là 6(7dm)^2 = 294dm2.\n\nVậy nên, diện tích toàn phần của hình lập phương là 294dm2.",
+                "answer": "B.294dm2"
+            },
+            {
+                "id": "92",
+                "question": "“Thể tích hình lập phương có cạnh 5cm bằng …..cm3.” Số thích hợp điền vào chỗ chấm là:",
+                "choices": [
+                    "A. 150",
+                    "B. 30",
+                    "C. 100",
+                    "D. 125"
+                ],
+                "explanation": "Thể tích của hình lập phương có cạnh là a được tính bằng công thức V = a^3. Trong trường hợp này, cạnh là 5cm, nên thể tích là 5^3 = 125cm3.\n\nVậy nên, số thích hợp điền vào chỗ chấm là 125.",
+                "answer": "D. 125"
+            },
+            {
+                "id": "920",
+                "question": "Một hình tam giác có cạnh đáy bằng 80cm, chiều cao bằng 60% cạnh đáy. Diện tích của tam giác đó bằng:",
+                "choices": [
+                    "A. 19,2 dm2",
+                    "B. 192 dm2",
+                    "C. 384 dm2",
+                    "D. 38,4 dm2"
+                ],
+                "explanation": "Chiều cao của hình tam giác đó là:80 ${\\times}$ 60 : 100 = 48 (cm). Diện tích của tam giác đó là:80 ${\\times}$ 48 : 2 = 1920 (cm2) Đổi: 1920 cm2 = 19,2 dm2 Đáp số: 19,2 dm2",
+                "answer": "A. 19,2 dm2"
+            },
+            {
+                "id": "921",
+                "question": "Một hình tam giác có chu vi là 24 cm, các cạnh của hình tam giác có độ dài bằng nhau. Độ dài mỗi cạnh của hình tam giác đó là:",
+                "choices": [
+                    "A. 8 dm",
+                    "B. 7 cm",
+                    "C. 80 mm",
+                    "D. 9 dm"
+                ],
+                "explanation": "Gọi độ dài mỗi cạnh của tam giác là a. Vì tam giác có chu vi là tổng độ dài của 3 cạnh, nên ta có phương trình: 3a = 24 cm. Giải phương trình này, ta được a = 8 cm.\n\nTuy nhiên, lưu ý rằng đáp án được yêu cầu ở dạng milimet, nên a = 8 cm sẽ chuyển đổi thành 80 mm.\n\nVậy nên, độ dài mỗi cạnh của hình tam giác là 80 mm.",
+                "answer": "C. 80 mm"
+            },
+            {
+                "id": "922",
+                "question": "Một hình tam giác có diện tích 384 cm2, chiều cao 24 cm. Vậy cạnh đáy của hình tam giác đó là:",
+                "choices": [
+                    "A. 16 cm",
+                    "B. 32 cm",
+                    "C. 16 cm2",
+                    "D. 32 cm2"
+                ],
+                "explanation": "Cạnh đáy của hình tam giác đó là:\n 2 ${\\times}$ 384 : 24 = 32 (cm) \n Đáp số: 32 cm2",
+                "answer": "B. 32 cm"
+            },
+            {
+                "id": "923",
+                "question": "Một hình tam giác có diện tích 480cm2, độ dài đáy 12cm. Chiều cao của hình tam giác là:",
+                "choices": [
+                    "A. 15cm",
+                    "B. 40cm",
+                    "C. 80cm",
+                    "D. 30cm"
+                ],
+                "explanation": "Một hình tam giác có diện tích 480cm2, độ dài đáy 12cm. \n Chiều cao của hình tam giác là:480 ${\\times}$ 2 : 12 = 80 (cm).",
+                "answer": "C. 80cm"
+            },
+            {
+                "id": "924",
+                "question": "Một hình tam giác có độ dài đáy bằng 12,6 cm. Chiều cao bằng $\\frac{1}{2}$ độ dài đáy. Diện tích của tam giác đó là:",
+                "choices": [
+                    "A. 79,38 cm2",
+                    "B. 36,69 cm2",
+                    "C. 39,83 cm2",
+                    "D. 39,96 cm2"
+                ],
+                "explanation": "Chiều cao của tam giác là:12,6 : 2 = 6,3 (cm)\n Diện tích của tam giác đó là:(12,6 ${\\times}$ 6,3) : 2 = 39,69 (cm2)\n Đáp số: 39,69 cm2.",
+                "answer": "D. 39,96 cm2"
+            },
+            {
+                "id": "925",
+                "question": "Một hình tam giác có độ dài đáy bằng 3,2 dm. Chiều cao tương ứng bằng $\\frac{3}{4}$ độ dài đáy. Diện tích tam giác đó là:",
+                "choices": [
+                    "A. 2,4 dm2",
+                    "B. 7,68 dm2",
+                    "C. 3,84 dm2",
+                    "D. 7,68 dm2"
+                ],
+                "explanation": "Gọi độ dài đáy của tam giác là d. Theo đề bài, chiều cao tương ứng là $\\frac{3}{4}$ độ dài đáy, nên chiều cao là $\\frac{3}{4}d$. Diện tích tam giác được tính theo công thức S = $\\frac{1}{2}$ * b * h, trong đó b là độ dài đáy, và h là chiều cao.\n\nThay giá trị vào công thức, ta có S = $\\frac{1}{2}$ * d * $\\frac{3}{4}d$ = $\\frac{3}{8}$ * d^2.\n\nĐã biết d = 3,2 dm, thay giá trị vào, ta có S = $\\frac{3}{8}$ * (3,2)^2 = 3,84 dm2.\n\nVậy nên, diện tích tam giác là 3,84 dm2.",
+                "answer": "C. 3,84 dm2"
+            },
+            {
+                "id": "926",
+                "question": "Một hình thang có độ dài hai đáy lần lượt là 16 cm và 24 cm, chiều cao là 7,2 dm. Diện tích hình thang là:",
+                "choices": [
+                    "A. 288 cm2",
+                    "B. 882 cm2",
+                    "C. 414 cm2",
+                    "D. 144 cm2"
+                ],
+                "explanation": "Diện tích hình thang được tính bằng công thức: Diện tích = (độ dài đáy nhỏ + độ dài đáy lớn) * chiều cao / 2. Thay vào giá trị vào ta có: Diện tích = (16 + 24) * 7.2 / 2 = 40 * 7.2 / 2 = 144 cm2.",
+                "answer": "D. 144 cm2"
+            },
+            {
+                "id": "927",
+                "question": "Một hình thang có độ dài hai đáy lần lượt là 26cm và 64cm. Chiều cao của hình thang là 30cm thì diện tích hình thang là:",
+                "choices": [
+                    "A. 2700cm",
+                    "B. 2700cm2",
+                    "C. 1350cm",
+                    "D. 1350cm2"
+                ],
+                "explanation": "Một hình thang có độ dài hai đáy lần lượt là 26cm và 64cm. \n Chiều cao của hình thang là 30cm thì diện tích hình thang là: (26 + 64) ${\\times}$ 30 : 2 = 1350 (cm2).",
+                "answer": "D. 1350cm2"
+            },
+            {
+                "id": "928",
+                "question": "Một hình thoi có độ dài đường chéo thứ nhất là 12 cm và đường chéo thứ hai có độ dài bằng $\\frac{2}{3}$ đường chéo thứ nhất. Diện tích hình thoi là:",
+                "choices": [
+                    "A. 28 cm2",
+                    "B. 42 cm2",
+                    "C.48 cm2",
+                    "D. 96 cm2"
+                ],
+                "explanation": "Độ dài đường chéo thứ hai là: 12 ${\\times}$ $\\frac{2}{3}$ = 8 (cm) \n Diện tích hình thoi là: 12 ${\\times}$ 8 : 2 = 48 (cm2)",
+                "answer": "C.48 cm2"
+            },
+            {
+                "id": "929",
+                "question": "Một hình thoi có độ dài hai đường chéo là 18 cm và 12 cm. Diện tích của hình thoi là:",
+                "choices": [
+                    "A. 216 cm2",
+                    "B. 432 cm2",
+                    "C. 108 cm2",
+                    "D. 60 cm2"
+                ],
+                "explanation": "Diện tích của hình thoi là:$\\frac{18\\times 12}{2}$ = 108 (cm2)\n Đáp số: 108 cm2",
+                "answer": "C. 108 cm2"
+            },
+            {
+                "id": "93",
+                "question": "“Trong số thập phân 135,43 chữ số 3 ở phần nguyên gấp … lần chữ số 3 ở phần thập phân.” Số thích hợp điền vào chỗ chấm là:",
+                "choices": [
+                    "A. 10",
+                    "B. 100",
+                    "C. 1 000",
+                    "D. 10 000"
+                ],
+                "explanation": "Để xác định số lần chữ số 3 ở phần nguyên gấp bao nhiêu lần so với chữ số 3 ở phần thập phân, chúng ta sẽ xác định vị trí của chữ số 3 ở mỗi phần và tính số lần chênh lệch giữa hai vị trí này. Trong trường hợp này, chữ số 3 ở phần nguyên có vị trí hàng trăm, trong khi chữ số 3 ở phần thập phân có vị trí hàng trục. Vậy nên, chênh lệch vị trí là 2. Điền số thích hợp vào chỗ chấm, ta có: 10^2 = 100, nên câu trả lời là 1 000.",
+                "answer": "C. 1 000"
+            },
+            {
+                "id": "930",
+                "question": "Một hình thoi có độ dài hai đường chéo là 18 cm và 3 dm. Diện tích hình thoi đó là:",
+                "choices": [
+                    "A. 270 cm2",
+                    "B. 540 cm2",
+                    "C. 27 dm2",
+                    "D. 54 dm2"
+                ],
+                "explanation": "Diện tích hình thoi được tính bằng công thức: Diện tích = (đường chéo lớn * đường chéo nhỏ) / 2. Substituting giá trị vào ta có: Diện tích = (18 * 3) / 2 = 54 cm2. Nhưng đáp án ở dạng cm2 nên câu trả lời là 270 cm2.",
+                "answer": "A. 270 cm2"
+            },
+            {
+                "id": "931",
+                "question": "Một hình tròn có diện tích 3,14dm2 thì bán kính của hình tròn đó là:",
+                "choices": [
+                    "A. 1dm",
+                    "B. 0,5dm",
+                    "C. 0,1dm",
+                    "D. 1,57dm"
+                ],
+                "explanation": "Diện tích của hình tròn được tính bằng công thức: Diện tích = π * bán kính^2. Đưa giá trị diện tích và π vào, ta có: 3.14 = π * bán kính^2. Tính bán kính, ta được bán kính = √(3.14/π) ≈ 1 dm. Vậy nên câu trả lời là 1 dm.",
+                "answer": "A. 1dm"
+            },
+            {
+                "id": "932",
+                "question": "Một hình tròn có tâm O và đường kính BC bằng 710cm. Bán kính của đường tròn là:",
+                "choices": [
+                    "A. 700",
+                    "B. 710",
+                    "C. 350",
+                    "D. 355"
+                ],
+                "explanation": "Bán kính của hình tròn bằng một nửa của đường kính. Vậy nên, bán kính = 710 / 2 = 355 cm. Do đó, câu trả lời là 355.",
+                "answer": "D. 355"
+            },
+            {
+                "id": "934",
+                "question": "Một hình vuông cho chu vi bằng 32 cm. Vậy diện tích hình vuông đó là:",
+                "choices": [
+                    "A. 64 cm2",
+                    "B. 49 cm2",
+                    "C. 36 cm2",
+                    "D. 25 cm2"
+                ],
+                "explanation": "Độ dài cạnh hình vuông là: 32 : 4 = 8 (cm)\n Diện tích hình vuông đó là: 8 ${\\times}$ 8 = 64 (cm2)",
+                "answer": "A. 64 cm2"
+            },
+            {
+                "id": "935",
+                "question": "Một hình vuông có cạnh 5cm. Tính diện tích hình vuông đó?",
+                "choices": [
+                    "A. 25cm",
+                    "B. 25cm²",
+                    "C. 20cm",
+                    "D. 20cm²"
+                ],
+                "explanation": "Diện tích của hình vuông được tính bằng công thức: Diện tích = cạnh * cạnh. Substituting giá trị cạnh vào, ta có: Diện tích = 5 * 5 = 25 cm². Vậy nên câu trả lời là 25cm².",
+                "answer": "B. 25cm²"
+            },
+            {
+                "id": "936",
+                "question": "Một hình vuông có cạnh dài 8 cm. Chu vi của hình vuông đó là:",
+                "choices": [
+                    "A. 24 cm",
+                    "B. 64 cm",
+                    "C. 32 cm",
+                    "D. 16 cm"
+                ],
+                "explanation": "Chu vi hình vuông đó là 8 ${\\times}$ 4 = 32 (cm)\n Đáp số: 32 cm",
+                "answer": "C. 32 cm"
+            },
+            {
+                "id": "937",
+                "question": "Một hình vuông có chu vi 20 cm. Diện tích của hình vuông đó là:",
+                "choices": [
+                    "A. 20 cm2",
+                    "B. 25 cm",
+                    "C. 25 cm2",
+                    "D. 20 cm"
+                ],
+                "explanation": "Độ dài cạnh của hình vuông là:\n 20 : 4 = 5 (cm)\n Diện tích hình vuông là:\n 5 × 5 = 25 (cm2)",
+                "answer": "C. 25 cm2"
+            },
+            {
+                "id": "938",
+                "question": "Một hình vuông có chu vi bằng 36 cm. Diện tích của hình vuông đó là:",
+                "choices": [
+                    "A.24 cm2",
+                    "B.81 cm2",
+                    "C.60 cm2",
+                    "D.72 cm2"
+                ],
+                "explanation": "Độ dài cạnh hình vuông là 36 : 4 = 9 (cm)\n Diện tích của hình vuông đó là 9 ${\\times}$ 9 = 81 (cm2)\n Đáp số: 81 cm2",
+                "answer": "B.81 cm2"
+            },
+            {
+                "id": "939",
+                "question": "Một hình vuông có diện tích bằng 16cm2. Chu vi của hình vuông đó là:",
+                "choices": [
+                    "A.10cm",
+                    "B.18cm",
+                    "C. 14cm",
+                    "D. 16cm"
+                ],
+                "explanation": "Chu vi của hình vuông được tính bằng công thức: Chu vi = 4 * cạnh. Đưa giá trị diện tích vào công thức chu vi, ta có: Chu vi = 4 * √(16) = 4 * 4 = 16 cm. Vậy nên câu trả lời là 16cm.",
+                "answer": "D. 16cm"
+            },
+            {
+                "id": "94",
+                "question": "1 giờ 15 phút = … phút",
+                "choices": [
+                    "A. 115 phút",
+                    "B. 615 phút",
+                    "C. 65 phút",
+                    "D. 75 phút"
+                ],
+                "explanation": "Một giờ có 60 phút, nên 1 giờ 15 phút là 60 + 15 = 75 phút. Vậy nên câu trả lời là 75 phút.",
+                "answer": "D. 75 phút"
+            },
+            {
+                "id": "940",
+                "question": "Một hình vuông có diện tích là 169dm2. Chu vi của hình vuông đó là:",
+                "choices": [
+                    "A. 26dm",
+                    "B. 52dm",
+                    "C. 48dm",
+                    "D. 44dm"
+                ],
+                "explanation": "Diện tích của hình vuông là bình phương của độ dài cạnh, vì vậy cạnh của hình vuông là căn bậc 2 của diện tích: √169 = 13 (dm). Chu vi của hình vuông là 4 lần độ dài cạnh, nên chu vi là 4 × 13 = 52 (dm).",
+                "answer": "B. 52dm"
+            },
+            {
+                "id": "941",
+                "question": "Một hộ nông dân định trồng đậu và cà trên diện tích 800m^2. Nếu trồng đậu trên diện tích 100m^2 thì cần 20 công làm và thu được 3000000 đồng. Nếu trồng cà thì trên diện tích 100m^2 cần 30 công làm và thu được 4000000 đồng. Hỏi cần trồng mỗi loại câu trên diện tích là bao nhiêu để thu được nhiều tiền nhất khi tổng số công làm không quá 180 công. Hãy chọn phương án đúng nhất trong các phương án sau:",
+                "choices": [
+                    "A. Trồng 600m^2 đậu; 200m^2 cà",
+                    "B. Trồng 500m^2 đậu; 300m^2 cà",
+                    "C. Trồng 400m^2 đậu; 200m^2 cà",
+                    "D. Trồng 200m^2 đậu; 600m^2 cà"
+                ],
+                "explanation": "Gọi x là diện tích trồng đậu (m^2), y là diện tích trồng cà (m^2). Tổng diện tích là x + y = 800. Tổng số công làm không quá 180 công, nên 20x + 30y ≤ 180. Thu nhập từ đậu là 30000x, từ cà là 40000y. Cần tối đa hóa thu nhập T = 30000x + 40000y với điều kiện x + y = 800 và 20x + 30y ≤ 180. Giải hệ phương trình và bất phương trình này, ta có kết quả là x = 600, y = 200. Vậy, phương án đúng là Trồng 600m^2 đậu; 200m^2 cà.",
+                "answer": "A. Trồng 600m^2 đậu; 200m^2 cà"
+            },
+            {
+                "id": "943",
+                "question": "Một hộp chứa 5 bi xanh và 10 bi đỏ, lấy ngẫu nhiên 3 bi. Xác suất để lấy được đúng một bi xanh là",
+                "choices": [
+                    "A. \\frac{3}{4}",
+                    "B. \\frac{2}{3}",
+                    "C. \\frac{45}{91}",
+                    "D. \\frac{200}{273}"
+                ],
+                "explanation": "Tổng số cách lấy 3 bi từ hộp có 15 bi là C(15,3). Số cách lấy đúng 1 bi xanh từ 5 bi xanh là C(5,1), và số cách lấy 2 bi đỏ từ 10 bi đỏ là C(10,2). Do đó, số cách lấy được đúng một bi xanh là C(5,1) * C(10,2). Xác suất được tính bằng tỉ lệ số cách lấy được đúng một bi xanh và tổng số cách lấy 3 bi từ hộp: \\frac{C(5,1) \\times C(10,2)}{C(15,3)}. Kết quả tính toán là \\frac{45}{91}.",
+                "answer": "C. \\frac{45}{91}"
+            },
+            {
+                "id": "944",
+                "question": "Một hộp có 3 bi xanh, 4 bi đỏ và 5 bi vàng. Chọn ngẫu nhiên 3 bi sao cho có đủ ba màu. Số cách chọn là:",
+                "choices": [
+                    "A. 60",
+                    "B. 220",
+                    "C. 360",
+                    "D. 120"
+                ],
+                "explanation": "Để chọn 3 bi sao cho có đủ ba màu, ta có thể chọn 1 bi từ mỗi màu. Số cách chọn bi xanh là C(3,1), số cách chọn bi đỏ là C(4,1), và số cách chọn bi vàng là C(5,1). Tổng số cách chọn là tích số cách chọn từng màu: C(3,1) * C(4,1) * C(5,1) = 3 * 4 * 5 = 60.",
+                "answer": "A. 60"
+            },
+            {
+                "id": "945",
+                "question": "Một hộp đựng 10 viên bi: 3 viên bi đỏ, 5 viên bi vàng, 2 viên bi trắng. Lan bịt mắt lấy ngẫu nhiên một viên bi. Khả năng nào sau đây không thể xảy ra:",
+                "choices": [
+                    "A. Lan có thể lấy được viên bi đỏ",
+                    "B. Lan có thể lấy được viên bi vàng",
+                    "C. Lan có thể lấy được viên bi trắng",
+                    "D. Lan có thể lấy được viên bi xanh"
+                ],
+                "explanation": "Lan không thể lấy được viên vi xanh vì trong hộp không có viên bi nào màu xanh.",
+                "answer": "D. Lan có thể lấy được viên bi xanh"
+            },
+            {
+                "id": "946",
+                "question": "Một hộp đựng 3 viên bi màu xanh, 5 viên bi màu đỏ, 6 viên bi màu trắng và 7 viên bi màu đen. Chọn ngẫu nhiên đồng thời từ hộp 4 viên bi, tính xác suất để 4 viên bi được chọn không nhiều hơn 3 màu và luôn có bi màu xanh?",
+                "choices": [
+                    "A. 2058/5985",
+                    "B. 2259/5985",
+                    "C. 2085/5985",
+                    "D. 2295/5985"
+                ],
+                "explanation": "Để tính xác suất này, ta sẽ chia thành hai trường hợp:\n1. Chọn 4 viên bi từ 1, 2, hoặc 3 màu (không chọn từ màu đen).\n2. Chọn ít nhất 1 viên bi màu xanh.\nTổng số cách chọn 4 viên từ hộp là C(21,4).\nSố cách chọn 4 viên không nhiều hơn 3 màu là tổng số cách chọn từ các tập hợp con không chứa bi màu đen, nghĩa là: C(14,4) + C(13,4) + C(12,4).\nSố cách chọn ít nhất 1 viên bi màu xanh là C(18,4).\nKết quả xác suất là: \\frac{C(14,4) + C(13,4) + C(12,4)}{C(21,4)} \\times \\frac{C(18,4)}{C(21,4)} = \\frac{2295}{5985}.",
+                "answer": "D. 2295/5985"
+            },
+            {
+                "id": "947",
+                "question": "Một hộp đựng 8 quả cầu xanh, 12 quả cầu đỏ. Lấy ngẫu nhiên 1 quả cầu trong hộp, sau đó lấy ngẫu nhiên 1 quả cầu trong các quả cầu còn lại. Xác suất để lấy được 2 quả cầu cùng màu là",
+                "choices": [
+                    "A. 50,53%",
+                    "B. 49,47%",
+                    "C. 85,26%",
+                    "D. 14,74%"
+                ],
+                "explanation": "Có hai trường hợp để lấy được 2 quả cầu cùng màu: màu xanh hoặc màu đỏ.\n1. Lấy được 2 quả cầu xanh: Xác suất là \frac{8}{20} \times \frac{7}{19}.\n2. Lấy được 2 quả cầu đỏ: Xác suất là \frac{12}{20} \times \frac{11}{19}.\nTổng xác suất là \\frac{8}{20} \times \frac{7}{19} + \\frac{12}{20} \\times \\frac{11}{19} = \\frac{101}{205} ≈ 49,47%.",
+                "answer": "B. 49,47%"
+            },
+            {
+                "id": "948",
+                "question": "Một khối kim loại hình lập phương có thể tích 2,45cm3 nặng 18,62g. Hỏi khối kim loại cùng chất có thể tích 3,5cm3 cận nặng bao nhiêu gam?",
+                "choices": [
+                    "A. 7,6 g",
+                    "B. 13,034 g",
+                    "C. 26,6 g",
+                    "D. 26,22 g"
+                ],
+                "explanation": "Vì khối kim loại có hình lập phương, nên tỉ lệ giữa thể tích và khối lượng là cố định. Ta sử dụng công thức Tỉ lệ = Khối lượng / Thể tích. Áp dụng cho khối kim loại có thể tích 2,45cm3 và khối lượng 18,62g, ta có tỉ lệ là 18,62 / 2,45 = 7,6 (g/cm3). Áp dụng tỉ lệ này cho khối kim loại có thể tích 3,5cm3, ta tính được khối lượng là 7,6 * 3,5 = 26,6 (g).",
+                "answer": "C. 26,6 g"
+            },
+            {
+                "id": "949",
+                "question": "Một khu công nghiệp hình chữ nhật có chiều dài 4000m và chiều rộng bằng 2km. Diện tích khu vườn theo đơn vị ki-lô-mét vuông là:",
+                "choices": [
+                    "A. 8km2",
+                    "B. 80km2",
+                    "C. 800km2",
+                    "D. 8000km2"
+                ],
+                "explanation": "Diện tích của một hình chữ nhật được tính bằng cách nhân chiều dài với chiều rộng. Trong trường hợp này, chiều dài là 4000m và chiều rộng là 2km (hoặc 2000m). Vì vậy, diện tích sẽ là 4000m * 2000m = 8,000,000m2. Để đổi sang đơn vị ki-lô-mét vuông, chúng ta chia cho 1,000,000 (vì 1km2 = 1,000,000m2). Vậy nên, diện tích là 8,000,000m2 / 1,000,000 = 8km2.",
+                "answer": "A. 8km2"
+            },
+            {
+                "id": "95",
+                "question": "1 giờ 40 phút = ... ?",
+                "choices": [
+                    "A. 1,40 giờ",
+                    "B. 140 phút",
+                    "C. 100 phút",
+                    "D. $\\frac{5}{3}$ giờ"
+                ],
+                "explanation": "Để chuyển 1 giờ 40 phút thành phút, ta nhân số giờ (1 giờ) cho 60 (vì mỗi giờ có 60 phút) và cộng thêm số phút (40 phút). Vậy nên, 1 giờ 40 phút bằng 60 + 40 = 100 phút.",
+                "answer": "C. 100 phút"
+            },
+            {
+                "id": "950",
+                "question": "Một khu đất hình chữ nhất có chiều dài là 60m, chiều rộng là 24m. Người ta chia thành những thửa đất hình vuông bằng nhau, để mỗi thửa đất có diện tích lớn nhất thì độ dài mỗi cạnh của thửa đất đó bằng?",
+                "choices": [
+                    "A. 6m",
+                    "B. 10m",
+                    "C. 12m",
+                    "D. 9m"
+                ],
+                "explanation": "Diện tích của mỗi thửa đất hình vuông sẽ lớn nhất khi các thửa này có kích thước bằng nhau và bằng căn bậc hai của diện tích của khu đất ban đầu. Diện tích của khu đất là 60m * 24m = 1440m2. Căn bậc hai của 1440m2 là 12m. Vậy nên, độ dài mỗi cạnh của thửa đất hình vuông để có diện tích lớn nhất là 12m.",
+                "answer": "C. 12m"
+            },
+            {
+                "id": "951",
+                "question": "Một lớp có 16 học sinh nữ và 24 học sinh nam. Vậy số học sinh nam chiếm số phần trăm so với số học sinh cả lớp là:",
+                "choices": [
+                    "A. 40%",
+                    "B. 70%",
+                    "C. 60%",
+                    "D. 50%"
+                ],
+                "explanation": "Tổng số học sinh nam và nữ là:$16 + 24 = 40$ (học sinh)\n Số học sinh nam chiếm số phần trăm so với số học sinh cả lớp là: 24 : 40 ${\\times}$ 100% = 60%",
+                "answer": "C. 60%"
+            },
+            {
+                "id": "952",
+                "question": "Một lớp có 24 bạn nam và 15 bạn nữ. Hỏi có bao nhiêu cách chọn một bạn làm trực nhật.",
+                "choices": [
+                    "A. 24",
+                    "B. 15",
+                    "C. 39",
+                    "D. 360"
+                ],
+                "explanation": "Tổng số bạn trong lớp là 24 (bạn nam) + 15 (bạn nữ) = 39. Số cách chọn một bạn làm trực nhật là bằng tổng số bạn, tức là 39 cách.",
+                "answer": "C. 39"
+            },
+            {
+                "id": "953",
+                "question": "Một lớp học có 18 học sinh nữ và 12 học sinh nam. Hỏi số học sinh nam chiếm bao nhiêu phần số học sinh cả lớp ?",
+                "choices": [
+                    "A. $\\frac{2}{5}$",
+                    "B. $\\frac{2}{3}$",
+                    "C. $\\frac{3}{5}$",
+                    "D. $\\frac{3}{2}$"
+                ],
+                "explanation": "Tổng số học sinh trong lớp là 18 (học sinh nữ) + 12 (học sinh nam) = 30. Phần trăm số học sinh nam so với tổng số học sinh là: $\\frac{12}{30} = \\frac{2}{5}$. Vậy nên, phần trăm số học sinh nam chiếm trong lớp là $\\frac{2}{5}$.",
+                "answer": "A. $\\frac{2}{5}$"
+            },
+            {
+                "id": "954",
+                "question": "Một lớp học có 30 học sinh, trong đó có 12 bạn nữ. Hỏi số bạn nữ chiếm bao nhiêu phần trăm so với số học sinh cả lớp?",
+                "choices": [
+                    "A. 40%",
+                    "B. 60%",
+                    "C. 25%",
+                    "D. 125%"
+                ],
+                "explanation": "Để tính phần trăm số bạn nữ so với tổng số học sinh, chúng ta sử dụng công thức: (Số bạn nữ / Tổng số học sinh) * 100%. Trong trường hợp này, (12 / 30) * 100% = 0.4 * 100% = 40%. Vậy nên, số bạn nữ chiếm 40% so với tổng số học sinh cả lớp.",
+                "answer": "A. 40%"
+            },
+            {
+                "id": "955",
+                "question": "Một lớp học có 30 học sinh, trong đó có 12 học sinh nữ. Số học sinh nam chiếm số phần trăm số học sinh cả lớp là:",
+                "choices": [
+                    "A. 40%",
+                    "B. 60%",
+                    "C. 25%",
+                    "D. 125%"
+                ],
+                "explanation": "Một lớp học có 30 học sinh, trong đó có 12 học sinh nữ. \n Số học sinh nam là: 30 – 12 = 18 (học sinh)\n Số học sinh nam chiếm số phần trăm số học sinh cả lớp là: 18 : 30 ${\\times}$ 100% = 60%",
+                "answer": "B. 60%"
+            },
+            {
+                "id": "956",
+                "question": "Một lớp học có 30 học sinh. Số học sinh nữ chiếm 60% số học sinh cả lớp. Số học sinh nam của lớp là:",
+                "choices": [
+                    "A. 12 học sinh",
+                    "B. 18 học sinh",
+                    "C. 25 học sinh",
+                    "D. 24 học sinh"
+                ],
+                "explanation": "Với số học sinh nữ chiếm 60%, ta có thể tính số học sinh nam bằng cách lấy phần complement của phần trăm đó. Phần trăm học sinh nam sẽ là 100% - 60% = 40%. Áp dụng cho số học sinh cả lớp (30 học sinh), ta có: 40% của 30 = 0.4 * 30 = 12 học sinh nam.",
+                "answer": "A. 12 học sinh"
+            },
+            {
+                "id": "957",
+                "question": "Một lớp học có 36 học sinh, trong đó có 9 học sinh được xếp loại giỏi. Tỉ số phần trăm của số học sinh giỏi so với số học sinh cả lớp .",
+                "choices": [
+                    "A. 25 %",
+                    "B. 30 %",
+                    "C. 35 %",
+                    "D. 40 %"
+                ],
+                "explanation": "Để tính tỉ số phần trăm, chúng ta sử dụng công thức: (Số học sinh giỏi / Tổng số học sinh) * 100%. Trong trường hợp này, (9 / 36) * 100% = 0.25 * 100% = 25%. Vậy nên, tỉ số phần trăm của số học sinh giỏi so với số học sinh cả lớp là 25%.",
+                "answer": "A. 25 %"
+            },
+            {
+                "id": "96",
+                "question": "1 kg bằng:",
+                "choices": [
+                    "A. 1000 g",
+                    "B. 100 g",
+                    "C. 10 g",
+                    "D. 1 g"
+                ],
+                "explanation": "1 kg bằng 1000 gram. Vì vậy, đáp án là 1000 g.",
+                "answer": "A. 1000 g"
+            },
+            {
+                "id": "967",
+                "question": "Một mảnh đất sử dụng 320ha đất trồng cây bưởi và 480ha đất trồng cây nhãn. Hỏi diện tích đất trồng nhẫn bằng bao nhiêu phần trăm diện tích của mảnh đất?",
+                "choices": [
+                    "A. 60%",
+                    "B. 30%",
+                    "C. 40%",
+                    "D. 50%"
+                ],
+                "explanation": "Diện tích mảnh đất là: 320 + 480 = 800 (ha)\n Diện tích trồng nhãn bằng số phần trăm diện tích mảnh đất là: 480 : 800 x 100 = 60%\n Đáp số : 60%",
+                "answer": "A. 60%"
+            },
+            {
+                "id": "97",
+                "question": "1 km = … m. Số thích hợp để điền vào chỗ chấm là:",
+                "choices": [
+                    "A. 1 000",
+                    "B. 100",
+                    "C. 10",
+                    "D. 1"
+                ],
+                "explanation": "1 km bằng 1 000 mét. Do đó, số thích hợp để điền vào chỗ chấm là 1 000.",
+                "answer": "A. 1 000"
+            },
+            {
+                "id": "974",
+                "question": "Một người bán hàng bỏ ra 80 000 đồng tiền vốn và được lãi 2%. Số tiền lãi của người bán hàng là:",
+                "choices": [
+                    "A. 20 000 đồng",
+                    "B. 18 000 đồng",
+                    "C. 1 600 đồng",
+                    "D. 14 000 đồng"
+                ],
+                "explanation": "Số tiền lãi của người bán hàng là: 80 000 ${\\times}$ 2 : 100 = 1 600 (đồng)\n Đáp số: 1 600 đồng",
+                "answer": "C. 1 600 đồng"
+            },
+            {
+                "id": "975",
+                "question": "Một người bán hàng đã bỏ ra 1 500 000 đồng để nhập hàng. Sau khi bán hết số hàng đó, người ấy lãi 10%. Tổng số tiền người đó thu được sau khi bán hết hàng là:",
+                "choices": [
+                    "A. 1 650 000 đồng",
+                    "B. 150 000 đồng",
+                    "C. 1 150 000 đồng",
+                    "D. 16 500 000 đồn"
+                ],
+                "explanation": "Số tiền lãi người đó thu được là: 1 500 000 ${\\times}$ 10 : 100 = 150 000 (đồng)\n Tổng số tiền người đó thu được sau khi bán hết hàng là:1 500 000 + 150 000 = 1 650 000 (đồng)\n Đáp số: 1 650 000 đồng",
+                "answer": "A. 1 650 000 đồng"
+            },
+            {
+                "id": "98",
+                "question": "1/2 của một giờ bằng bao nhiêu phút?",
+                "choices": [
+                    "A. 12 phút",
+                    "B. 30 phút",
+                    "C. 10 phút",
+                    "D. 20 phút"
+                ],
+                "explanation": "Một giờ có 60 phút. Nếu lấy 1/2 của một giờ, ta có: 60 phút * 1/2 = 30 phút. Do đó, đáp án là 30 phút.",
+                "answer": "B. 30 phút"
+            },
+            {
+                "id": "980",
+                "question": "Một người đi xe đạp được quãng đường dài 471m, bánh xe đã quay được 100 vòng. Bán kính của bánh xe là:",
+                "choices": [
+                    "A. 0,75m",
+                    "B. 7,5m",
+                    "C. 1,5m",
+                    "D. 15m"
+                ],
+                "explanation": "Một người đi xe đạp được quãng đường dài 471m, bánh xe đã quay được 100 vòng. \n Chu vi của bánh xe là: 471 : 100 = 4,71 (m)\n Bán kính của bánh xe là: 4,71 : 3,14 : 2 = 0,75 (m).",
+                "answer": "A. 0,75m"
+            },
+            {
+                "id": "981",
+                "question": "Một người đi xe đạp trên quãng đường dài 18,3km thì hết 1 giờ 30 phút. Nếu cứ đi với vận tốc đó thì người đó đi hết quãng đường dài 30,5km trong thời gian:",
+                "choices": [
+                    "A. 2 giờ 5 phút",
+                    "B. 2 giờ 15 phút",
+                    "C. 2 giờ 25 phút",
+                    "D. 2 giờ 30 phút"
+                ],
+                "explanation": "Đổi 1 giờ 30 phút = 1,5 giờ\n Vận tốc của người đi xe đạp là: 18,3 : 1,5 = 12,2 (km/giờ)\n Nếu cứ đi với vận tốc đó thì người đó đi hết quãng đường dài 30,5km trong thời gian: 30,5 : 12,2 = 2,5 (giờ)\n Đổi 2,5 giờ = 2 giờ 30 phút.",
+                "answer": "D. 2 giờ 30 phút"
+            },
+            {
+                "id": "983",
+                "question": "Một người đi xe đạp trong 1 giờ 15 phút được 16,25km. Vận tốc của người đó là:",
+                "choices": [
+                    "A. 12 km/giờ",
+                    "B. 13 km/giờ",
+                    "C. 13km/phút",
+                    "D. 15 km/giờ"
+                ],
+                "explanation": "Đổi 1 giờ 15 phút = 1,25 giờ\n Vận tốc của người đó là: 16,25 : 1,25 = 13 (km/giờ)",
+                "answer": "B. 13 km/giờ"
+            },
+            {
+                "id": "985",
+                "question": "Một người đi xe máy hết 80km trong 2 giờ 30 phút. Vận tốc của người đó là:",
+                "choices": [
+                    "A. 40km/giờ",
+                    "B. 16 km/giờ",
+                    "C. 32km/giờ",
+                    "D. 50km/giờ"
+                ],
+                "explanation": "Đổi 2 giờ 30 phút = 2,5 giờ. \n Vận tốc của người đó là: 80 : 2,5 = 32 (km/giờ)",
+                "answer": "C. 32km/giờ"
+            },
+            {
+                "id": "99",
+                "question": "10 là tích của hai số nào?",
+                "choices": [
+                    "A. 5 và 5",
+                    "B. 2 và 4",
+                    "C. 5 và 2",
+                    "D. 2 và 7"
+                ],
+                "explanation": "Để tìm hai số có tích bằng 10, chúng ta có thể chọn 2 và 5 vì 2 * 5 = 10. Do đó, đáp án là 5 và 2.",
+                "answer": "C. 5 và 2"
+            },
+            {
+                "id": "990",
+                "question": "Một nhóm bạn gồm Hoa, Hồng, Huệ, Hương. Cô giáo chọn 1 bạn bất kì để làm nhóm trưởng. Cô giáo ‘không thể’ chọn bạn nào?",
+                "choices": [
+                    "A. Hoa",
+                    "B. Hồng",
+                    "C. Đào",
+                    "D. Hương"
+                ],
+                "explanation": "Vì trong danh sách không có bạn Đào nên cô giáo không thể chọn bạn Đào.",
+                "answer": "C. Đào"
+            },
+            {
+                "id": "991",
+                "question": "Một ô tô đi được 60 km với vận tốc 60 km/giờ, tiếp đó ô tô đi được 60 km với vận tốc 30 km/giờ. Thời gian ô tô đã đi cả hai đoạn đường là:",
+                "choices": [
+                    "A. 1,5 giờ",
+                    "B. 2 giờ",
+                    "C. 3 giờ",
+                    "D. 4 giờ"
+                ],
+                "explanation": "vì đoạn đường thứ nhất ô tô đi hết 1 giờ, đoạn đường thứ hai ô tô đi hết 2 giờ nên tổng số thời gian ô tô đã đi đoạn đường là 3 giờ",
+                "answer": "C. 3 giờ"
+            },
+            {
+                "id": "993",
+                "question": "Một ô tô đi từ A đến B với vận tốc 38,5km/giờ được quãng đường 100,1km. Thời gian ô tô đã đi là:",
+                "choices": [
+                    "A. 2 giờ 1 phút",
+                    "B. 2 giờ 6 phút",
+                    "C. 2 giờ 36 phút",
+                    "D. 2 giờ 30 phút"
+                ],
+                "explanation": "Thời gian ô tô đã đi là: 100,1 : 38,5 = 2,6 (giờ)\n Đổi 2,6 giờ = 2 giờ 36 phút.",
+                "answer": "C. 2 giờ 36 phút"
+            },
+            {
+                "id": "994",
+                "question": "Một ô tô đi từ Hà Nội lúc 11 giờ trưa và đến Vinh lúc 5 giờ 30 phút chiều. Dọc đường ô tô dừng ở Ninh Bình và Thanh Hóa mỗi nơi 15 phút. Hỏi không kể thời gian dừng dọc đường, ô tô đi hết quãng đường từ Hà Nội đến Vinh mất bao nhiêu thời gian ?",
+                "choices": [
+                    "A. 4 giờ 30 phút",
+                    "B. 6 giờ 30 phút",
+                    "C. 6 giờ 15 phút",
+                    "D. 6 giờ"
+                ],
+                "explanation": "5 giờ 30 phút chiều = 17 giờ 30 phút\n Thời gian ô tô chạy từ Hà Nội đến Vinh gồm cả thời gian dừng là:\n 17 giờ 30 phút – 11 giờ = 6 giờ 30 phút\n Thời gian ô tô dừng ở Ninh Bình và Thanh Hóa là:\n 15 phút + 15 phút = 30 phút\n Thời gian ô tô đi từ Hà Nội đến Vinh không kể thời gian dừng là:\n 6 giờ 30 phút – 30 phút = 6 giờ",
+                "answer": "D. 6 giờ"
+            },
+            {
+                "id": "999",
+                "question": "Một sân vận động hình chữ nhật có chiều rộng 95 m, chiều dài gấp 3 lần chiều rộng. Chu vi sân vận động đó là:",
+                "choices": [
+                    "A.380 m",
+                    "B.285 m",
+                    "C.670 m",
+                    "D.760 m"
+                ],
+                "explanation": "Chiều dài sân vận động là: 95 ${\\times}$ 3 = 285 (m)\n Chu vi sân vận động hình chữ nhật là: (285 + 95) ${\\times}$ 2 = 760 (m)",
+                "answer": "D.760 m"
+            },
+            {
+                "id": "c",
+                "question": "Chữ số 7 trong số thập phân 53,675 có giá trị là:",
+                "choices": [
+                    "A: 7/10",
+                    "B: 7/100",
+                    "C: 70",
+                    "D: 700"
+                ],
+                "explanation": "Chữ số 7 ở vị trí phần trăm của phần thập phân của số 53,675. Do đó, đáp án là B: 7/100.",
+                "answer": "B. 7/100"
+            }
+    ]
+}
