@@ -258,7 +258,7 @@ def train(
         model = prepare_model_for_kbit_training(model)
 
     else:
-        model = LlamaForCausalLM.from_pretrained(
+        model = AutoModelForCausalLM.from_pretrained(
             base_model,
             load_in_8bit=True,
             torch_dtype=torch.float16,
@@ -500,7 +500,8 @@ def get_results(test_data, test_dialogs):
             print(id, solution_return)
         else:
             rows.append({"id": id, "answer": answer})
-
+            print(f"Solution: {solution_return}\n")
+            print(f"Answer: {answer}\n")
     return rows
 
 def ValidateFunc(model, tokenizer, test_path = None, test_data = None, batch_size = 8):
