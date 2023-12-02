@@ -260,13 +260,19 @@ def train(
         model = prepare_model_for_kbit_training(model)
 
     else:
-        model = AutoModelForCausalLM.from_pretrained(
+        # model = AutoModelForCausalLM.from_pretrained(
+        #     base_model,
+        #     revision = revision,
+        #     load_in_8bit=load_in_8bit,
+        #     # torch_dtype=torch.float16,
+        #     device_map=device_map,
+        #     trust_remote_code = True,
+        # )
+        model = LlamaForCausalLM.from_pretrained(
             base_model,
-            revision = revision,
-            load_in_8bit=load_in_8bit,
-            # torch_dtype=torch.float16,
+            load_in_8bit=True,
+            torch_dtype=torch.float16,
             device_map=device_map,
-            trust_remote_code = True,
         )
         model = prepare_model_for_kbit_training(model)
     model.gradient_checkpointing_enable()
