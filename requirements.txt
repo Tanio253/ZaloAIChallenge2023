@@ -9,3 +9,4 @@ deepspeed
 trl 
 wandb 
 flash-attn
+fire
