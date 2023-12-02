@@ -4,7 +4,7 @@ appdirs
 loralib
 black
 black[jupyter]
-sentenpiece
+sentencepiece
 gradio
 gdown
 scipy 
