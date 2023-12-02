@@ -10,8 +10,9 @@ import numpy as np
 import fire
 import torch
 import transformers
-from transformers import GenerationConfig
+from transformers import GenerationConfig, TrainingArguments
 from datasets import Dataset, load_metric
+from trl import SFTTrainer
 
 from peft import (
     LoraConfig,
@@ -306,15 +307,13 @@ def train(
 
     model.config.eos_token_id = tokenizer.eos_token_id
     model.config.pad_token_id = tokenizer.pad_token_id
-    config = LoraConfig(
-        r=lora_r,
-        lora_alpha=lora_alpha,
-        target_modules=lora_target_modules,
-        lora_dropout=lora_dropout,
-        bias="none",
-        task_type="CAUSAL_LM",
-    )
-    model = get_peft_model(model, config)
+    peft_config = LoraConfig(r = Config.R,
+                    lora_alpha = Config.LORA_ALPHA,
+                    lora_dropout = Config.LORA_DROPOUT,
+                    target_modules = Config.TARGET_MODULES,
+                    bias = Config.BIAS,
+                    task_type = Config.TASK_TYPE)
+    model = get_peft_model(model, peft_config)
 
     model.print_trainable_parameters()
 
