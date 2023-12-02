@@ -388,8 +388,8 @@ def train(
     print(f"Validation Data:\nA: {countA} B: {countB} C: {countC} D: {countD}")
     
     system_prompt = """\
-    Bạn là một trợ lý giải toán. Hãy suy nghĩ từng bước một, \
-    sau đó chọn 1 trong những đáp án A, B, C, D dưới đây. Điều này rất quan trọng với việc học của tôi."""
+Bạn là một trợ lý giải toán. Hãy suy nghĩ từng bước một, \
+sau đó chọn 1 trong những đáp án A, B, C, D dưới đây. Điều này rất quan trọng với việc học của tôi."""
     def preprocess(samples):
         prefix_prompt =  f"{SYS_PREFIX}{system_prompt}{SYS_POSTFIX}{INST_PREFIX}"
         choices_list = samples['choices'].copy()
