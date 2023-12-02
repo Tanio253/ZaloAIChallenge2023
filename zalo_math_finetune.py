@@ -182,6 +182,7 @@ def train(
     ],
     # llm hyperparams
     seed: int = 42,
+    gradient_checkpoint: bool = True,
     train_on_inputs: bool = True,  # if False, masks out inputs in loss
     add_eos_token: bool = False,
     group_by_length: bool = False,  # faster, but produces an odd training loss curve
@@ -271,7 +272,8 @@ def train(
             trust_remote_code = True,
         )
         model = prepare_model_for_kbit_training(model)
-    model.gradient_checkpointing_enable()
+    if gradient_checkpoint:
+        model.gradient_checkpointing_enable()
     model.config.eos_token_id = tokenizer.eos_token_id
     model.config.pad_token_id = tokenizer.pad_token_id
     config = LoraConfig(
