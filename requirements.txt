@@ -1,5 +1,13 @@
 transformers 
-peft 
+peft
+appdirs
+loralib
+black
+black[jupyter]
+sentenpiece
+gradio
+gdown
+scipy 
 auto-gptq 
 optimum 
 datasets 

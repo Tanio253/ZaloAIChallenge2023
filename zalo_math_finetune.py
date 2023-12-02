@@ -10,9 +10,8 @@ import numpy as np
 import fire
 import torch
 import transformers
-from transformers import GenerationConfig, TrainingArguments
+from transformers import GenerationConfig
 from datasets import Dataset, load_metric
-from trl import SFTTrainer
 
 from peft import (
     LoraConfig,
@@ -30,40 +29,6 @@ INST_POSTFIX = " "
 OUTPUT_PREFIX = "[/INST] "
 OUTPUT_POSTFIX = "</s>"
 
-
-class Config:
-  MODEL_ID = 'TheBloke/speechless-tora-code-7B-v1.0-GPTQ'
-  REVISION = 'gptq-8bit-128g-actorder_True'
-  OUTPUT_DIR = 'ToraZaloFT'
-  PER_DEVICE_TRAIN_BATCH_SIZE = 4
-  GRADIENT_ACCUMULATION_STEPS = 4
-  OPTIM = 'paged_adamw_32bit' #8or32
-  LEARNING_RATE = 2e-4
-  LR_SCHEDULER_TYPE = 'constant'
-  LOGGING_STEPS = 20
-  SAVE_STRATEGY = 'steps'
-  SAVE_STEPS = 20
-  WARMUP_STEPS = 5
-  EVAL_STEPS = 20
-  LOGGING_DIR = './logs'
-  MAX_STEPS = 240
-  NUM_TRAIN_EPOCHS = 2
-  FP16 = True
-  PUSH_TO_HUB = False
-  DATASET_TEXT_FIELD = 'content'
-  MAX_SEQ_LENGTH = 4096
-  REPORT_TO = 'wandb'
-  PACKING = False
-  DO_EVAL = True
-  NEFTUNE_NOISE_ALPHA = 5
-  EVALUATION_STRATEGY = 'steps'
-  R = 128
-  LORA_ALPHA = 256
-  LORA_DROPOUT = 0.05
-  TARGET_MODULES = ['q_proj', 'v_proj']
-  BIAS = 'none'
-  TASK_TYPE = 'CAUSAL_LM'
-  
 def seed_everything(seed=42):
     random.seed(seed)
     os.environ['PYTHONHASHSEED'] = str(seed)
@@ -122,42 +87,42 @@ def preprocess(data_point, tokenizer, cutoff_len):
         "labels": labels
     }
 
-# def transformer_to_dialog(math_data):
-#     dialogs = []
+def transformer_to_dialog(math_data):
+    dialogs = []
 
-#     for d in math_data:
-#         question = d['question']
-#         choices = d['choices']
-#         choices = "\n".join(choices)
-#         answer = d['answer']
-#         explanation = d['explanation']
-#         dialog = [
-#             {"role": "system", "content": "Bạn là một trợ lý giải toán. Hãy suy nghĩ từng bước một, \
-# sau đó chọn 1 trong những đáp án A, B, C, D dưới đây. Điều này rất quan trọng với việc học của tôi."}
-#         ]
-#         dialog += [
-#         {"role": "user", "content": f"Câu hỏi: {question}\nLựa chọn:\n{choices}.\nViết lời giải của bạn, sau đó đưa ra lựa chọn."},
-#         {"role": "assistant", "content": f"Lời giải: {explanation}\nKết quả: {answer}"}
-#         ]
+    for d in math_data:
+        question = d['question']
+        choices = d['choices']
+        choices = "\n".join(choices)
+        answer = d['answer']
+        explanation = d.get("explanation", None)
+        dialog = [
+            {"role": "system", "content": "Bạn là một trợ lý giải toán. Hãy suy nghĩ từng bước một, \
+sau đó chọn 1 trong những đáp án A, B, C, D dưới đây. Điều này rất quan trọng với việc học của tôi."}
+        ]
+        dialog += [
+        {"role": "user", "content": f"Câu hỏi: {question}\nLựa chọn:\n{choices}. Viết lời giải của bạn, sau đó đưa ra lựa chọn."},
+        {"role": "assistant", "content": f"Lời giải: {explanation}\nKết quả: {answer}"}
+        ]
 
-#         dialogs.append(dialog)
+        dialogs.append(dialog)
         
-#     return dialogs
+    return dialogs
 
-# def transformer_for_test(data):
-#     dialogs = []
-#     for d in data:
-#         question = d['question']
-#         choices = d['choices']
-#         choices = "\n".join(choices)
-#         dialog = [
-#             {"role": "system", "content": "Bạn là một trợ lý giải toán. Hãy suy nghĩ từng bước một, \
-# sau đó chọn 1 trong những đáp án A, B, C, D dưới đây. Điều này rất quan trọng với việc học của tôi."},
-#             {"role": "user", "content": f"Câu hỏi: {question}\nLựa chọn:\n{choices}.\nViết lời giải của bạn, sau đó đưa ra lựa chọn."},
-#         ]
-#         dialogs.append(dialog)
+def transformer_for_test(data):
+    dialogs = []
+    for d in data:
+        question = d['question']
+        choices = d['choices']
+        choices = "\n".join(choices)
+        dialog = [
+            {"role": "system", "content": "Bạn là một trợ lý giải toán. Hãy suy nghĩ từng bước một, \
+sau đó chọn 1 trong những đáp án A, B, C, D dưới đây. Điều này rất quan trọng với việc học của tôi."},
+            {"role": "user", "content": f"Câu hỏi: {question}\nLựa chọn: {choices}. Viết lời giải của bạn, sau đó đưa ra lựa chọn."}
+        ]
+        dialogs.append(dialog)
 
-#     return dialogs
+    return dialogs
 
 def get_dialog_string(dialog):
     prompt = ""
@@ -178,19 +143,19 @@ def get_dialog_string(dialog):
 def train(
     # model/data params
     base_model: str = "",  # the only required argument
-    train_data_path: str = "mTrain.json",
-    val_data_path: str = 'mVal.json',
-    test_path: str = "math_test.json",
-    output_dir: str = "./lora-zalo",
+    train_data_path: str = "./data/ztrain/mTrain.json",
+    val_data_path: str = "./data/ztrain/mVal.json",
+    test_path: str = "./data/ztest/math_test-1.json",
+    output_dir: str = "./lora-alpaca",
     # training hyperparams
     batch_size: int = 4,
     eval_batch_size: int = 4,
-    micro_batch_size: int = 4,
+    # micro_batch_size: int = 4,
+    max_steps = 240,
     # num_epochs: int = 3,
-    max_steps = 200,
     learning_rate: float = 2e-4,
     cutoff_len: int = 256,
-    val_set_size: float = 0.3,
+    # val_set_size: float = 0.3,
     max_grad_norm: float = 0.3,
     warmup_ratio: float = 0.03,
     weight_decay: float = 0.01,
@@ -200,8 +165,8 @@ def train(
     optim: str = "paged_adamw_32bit",
     # lora hyperparams
     train_qlora: bool = False,
-    lora_r: int = 128,
-    lora_alpha: int = 256,
+    lora_r: int = 8,
+    lora_alpha: int = 16,
     lora_dropout: float = 0.05,
     lora_target_modules: List[str] = [
         "q_proj",
@@ -225,12 +190,12 @@ def train(
     wandb_log_model: str = "",  # options: false | true
     resume_from_checkpoint: str = None,  # either training checkpoint or final adapter
     prompt_template_name: str = "alpaca",  # The prompt template to use, will default to alpaca.
-    wandb_api_key: str = 'db6f204a887bc4436623a37ce6db19522e0069d5', # Wandb api key
-    huggingface_token: str = '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', # token to login huggingface
+    wandb_api_key: str = None, # Wandb api key
+    huggingface_token: str = None, # token to login huggingface
     huggingface_repo: str = None, # push to repo
 ):
     
-    gradient_accumulation_steps = 8
+    gradient_accumulation_steps = 4
     seed_everything(seed)
 
     device_map = "auto"
@@ -238,8 +203,7 @@ def train(
     ddp = world_size != 1
     if ddp:
         device_map = {"": int(os.environ.get("LOCAL_RANK") or 0)}
-        gradient_accumulation_steps = gradient_accumulation_steps // world_size
-
+        # gradient_accumulation_steps = 4
     # Check if parameter passed or if set within environ
     use_wandb = len(wandb_project) > 0 or (
         "WANDB_PROJECT" in os.environ and len(os.environ["WANDB_PROJECT"]) > 0
@@ -259,10 +223,11 @@ def train(
         os.environ["WANDB_DISABLED"] = "true"
         use_wandb = False
 
-    tokenizer = AutoTokenizer.from_pretrained(base_model,
-                                              trust_remote_code =True)
+    tokenizer = AutoTokenizer.from_pretrained(base_model)
 
-    tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.pad_token_id = (
+        0  # unk. we want this to be different from the eos token
+    )
     global OUTPUT_POSTFIX
     OUTPUT_POSTFIX = tokenizer.eos_token
     tokenizer.padding_side = "left"  # Allow batched inference
@@ -293,139 +258,48 @@ def train(
         model = prepare_model_for_kbit_training(model)
 
     else:
-        model = AutoModelForCausalLM.from_pretrained(
+        model = LlamaForCausalLM.from_pretrained(
             base_model,
             load_in_8bit=True,
-            # torch_dtype=torch.float16,
+            torch_dtype=torch.float16,
             device_map=device_map,
-            trust_remote_code = True
         )
-        model.config.use_cache = False
-        model.config.pretraining_tp = 1
-        model.gradient_checkpointing_enable()
         model = prepare_model_for_kbit_training(model)
 
     model.config.eos_token_id = tokenizer.eos_token_id
     model.config.pad_token_id = tokenizer.pad_token_id
-    peft_config = LoraConfig(r = Config.R,
-                    lora_alpha = Config.LORA_ALPHA,
-                    lora_dropout = Config.LORA_DROPOUT,
-                    target_modules = Config.TARGET_MODULES,
-                    bias = Config.BIAS,
-                    task_type = Config.TASK_TYPE)
-    model = get_peft_model(model, peft_config)
+    config = LoraConfig(
+        r=lora_r,
+        lora_alpha=lora_alpha,
+        target_modules=lora_target_modules,
+        lora_dropout=lora_dropout,
+        bias="none",
+        task_type="CAUSAL_LM",
+    )
+    model = get_peft_model(model, config)
 
     model.print_trainable_parameters()
 
-    # train_data = read_json(train_data_path)['data']
-    # random.shuffle(train_data)
-    # val_data = read_json(val_data_path)['data']
-    # random.shuffle(val_data)
+    train_data = read_json(train_data_path)['data']
+    random.shuffle(train_data)
+    val_data = read_json(val_data_path)['data']
+    random.shuffle(val_data)
 
     # if val_set_size > 1:
     #     val_set_size = 0.3
     # val_set_size = int(val_set_size * len(data))
     # train_data = data[val_set_size:]
-    # val_data = data[:val_set_size]
 
-    countA = 0
-    countB = 0
-    countC = 0
-    countD = 0
-    with open(train_data_path, 'r') as file:
-        train_data = json.load(file)
-    with open(val_data_path, 'r') as file:
-        val_data = json.load(file)
-    train_data = train_data['data']
-    len_train_data = len(train_data)
-    print(f"Length train dataset: {len_train_data}")
-    val_data = val_data['data']
-    len_val_data = len(val_data)
-    print(f"Length validation dataset: {len_val_data}")
-    zalo_train_data = {'question': [],
-                    'choices': [],
-                    'answer': [],
-                    'explanation': [],
-                    'id': []}
-    zalo_val_data = {'question': [],
-                    'choices': [],
-                    'answer': [],
-                    'explanation': [],
-                    'id': []}
-    for i in range(len_train_data):
-        zalo_train_data['question'].append(train_data[i]['question'])
-        zalo_train_data['choices'].append(train_data[i]['choices'])
-        zalo_train_data['answer'].append(train_data[i]['answer'])
-        zalo_train_data['id'].append(train_data[i]['id'])
-        zalo_train_data['explanation'].append(train_data[i]['explanation'])
-        if 'A.' in train_data[i]['answer']:
-            countA+=1
-        elif 'B.' in train_data[i]['answer']:
-            countB+=1
-        elif 'C.' in train_data[i]['answer']:
-            countC+=1
-        elif 'D.' in train_data[i]['answer']:
-            countD+=1
-    print(f"Training Data:\nA: {countA} B: {countB} C: {countC} D: {countD}")
-    countA = 0
-    countB = 0
-    countC = 0
-    countD = 0
-    for i in range(len_val_data):
-        zalo_val_data['question'].append(val_data[i]['question'])
-        zalo_val_data['choices'].append(val_data[i]['choices'])
-        zalo_val_data['answer'].append(val_data[i]['answer'])
-        zalo_val_data['id'].append(val_data[i]['id'])
-        zalo_val_data['explanation'].append(val_data[i]['explanation'])
-        if 'A.' in val_data[i]['answer']:
-            countA+=1
-        elif 'B.' in val_data[i]['answer']:
-            countB+=1
-        elif 'C.' in val_data[i]['answer']:
-            countC+=1
-        elif 'D.' in val_data[i]['answer']:
-            countD+=1
-    print(f"Validation Data:\nA: {countA} B: {countB} C: {countC} D: {countD}")
-    
-    system_prompt = """\
-Bạn là một trợ lý giải toán. Hãy suy nghĩ từng bước một, \
-sau đó chọn 1 trong những đáp án A, B, C, D dưới đây. Điều này rất quan trọng với việc học của tôi."""
-    def preprocess(samples):
-        prefix_prompt =  f"{SYS_PREFIX}{system_prompt}{SYS_POSTFIX}{INST_PREFIX}"
-        choices_list = samples['choices'].copy()
-        choices = "\n".join(choices_list)
-        question = f"Câu hỏi: {samples['question']}\nLựa chọn:\n{choices}.\nViết lời giải của bạn, sau đó đưa ra lựa chọn."
-        explanation = f"{samples['explanation']}"
-        answer = f"Lời giải: {explanation}\nKết quả: {samples['answer']}"
-        formatted_conv = f"{prefix_prompt}{question}{INST_POSTFIX}{OUTPUT_PREFIX}{answer} {OUTPUT_POSTFIX}"
-        return {'content':formatted_conv}
-    train_data = Dataset.from_dict(zalo_train_data, split = 'train')
-    train_data = train_data.map(
-        preprocess,
-        # batched = True,
-        remove_columns = train_data.column_names
-    )
-    train_data = train_data.shuffle(100)
-    print(train_data[2])
+    train_dialogs = transformer_to_dialog(math_data=train_data)
+    val_dialogs = transformer_to_dialog(math_data=val_data)
 
-    val_data = Dataset.from_dict(zalo_val_data, split = 'val')
-    val_data = val_data.map(
-        preprocess,
-        # batched = True,
-        remove_columns = val_data.column_names
-    )
-    val_data = val_data.shuffle(100)
-    print(val_data[0])
-    # print(count1)
+    train_ds = (
+        Dataset.from_dict({"dialog": train_dialogs}).shuffle().map(lambda x: preprocess(x, tokenizer, cutoff_len))
+    ).filter(lambda x: len(x['input_ids']) < cutoff_len)
 
-    # train_ds = (
-    #     Dataset.from_dict({"dialog": train_dialogs}, split = 'train').shuffle())
-    # train_ds = train_ds.map(lambda x: preprocess(x, tokenizer, cutoff_len), remove_columns = train_ds.column_names)
-    # train_ds = train_ds.filter(lambda x: len(x['input_ids']) < cutoff_len)
-
-    # val_ds = (
-    #     Dataset.from_dict({"dialog": val_dialogs}).map(lambda x: preprocess(x, tokenizer, cutoff_len))
-    # ).filter(lambda x: len(x['input_ids']) < cutoff_len)
+    val_ds = (
+        Dataset.from_dict({"dialog": val_dialogs}).map(lambda x: preprocess(x, tokenizer, cutoff_len))
+    ).filter(lambda x: len(x['input_ids']) < cutoff_len)
 
 
     if not ddp and torch.cuda.device_count() > 1:
@@ -433,6 +307,9 @@ sau đó chọn 1 trong những đáp án A, B, C, D dưới đây. Điều này
         model.is_parallelizable = True
         model.model_parallel = True
 
+    # total_steps = num_epochs * len(train_ds) // batch_size
+    # logging_steps = int(0.1 * total_steps)
+    # eval_steps = total_steps // num_epochs
 
     perplexity = load_metric("perplexity")
     def compute_metrics(eval_preds):
@@ -441,43 +318,51 @@ sau đó chọn 1 trong những đáp án A, B, C, D dưới đây. Điều này
         perplexity_val = perplexity.compute(predictions=predictions, references=labels)
         return {"perplexity": perplexity_val}
 
-    training_arguments = TrainingArguments(
-        output_dir = Config.OUTPUT_DIR,
-        per_device_train_batch_size = Config.PER_DEVICE_TRAIN_BATCH_SIZE,
-        gradient_accumulation_steps = Config.GRADIENT_ACCUMULATION_STEPS,
-        optim = Config.OPTIM,
-        learning_rate = Config.LEARNING_RATE,
-        save_strategy = Config.SAVE_STRATEGY,
-        lr_scheduler_type = Config.LR_SCHEDULER_TYPE,
-        eval_steps = Config.EVAL_STEPS,
-        logging_steps = Config.LOGGING_STEPS,
-        max_steps = Config.MAX_STEPS,
-        fp16 = Config.FP16,
-        save_steps = Config.SAVE_STEPS,
-        logging_dir = Config.LOGGING_DIR,
-        report_to = Config.REPORT_TO,
-        do_eval = Config.DO_EVAL,
-        warmup_steps = Config.WARMUP_STEPS,
-        push_to_hub = Config.PUSH_TO_HUB,
-        neftune_noise_alpha = Config.NEFTUNE_NOISE_ALPHA,
-        evaluation_strategy = Config.EVALUATION_STRATEGY,
-        num_train_epochs = Config.NUM_TRAIN_EPOCHS
+    trainer = transformers.Trainer(
+        model=model,
+        train_dataset=train_ds,
+        eval_dataset=val_ds,
+        # compute_metrics=compute_metrics,
+        args=transformers.TrainingArguments(
+            per_device_train_batch_size=4,
+            per_device_eval_batch_size=4,
+            gradient_accumulation_steps=gradient_accumulation_steps,
+            warmup_ratio=warmup_ratio,
+            weight_decay = weight_decay,
+            # num_train_epochs=num_epochs,
+            max_steps = max_steps,
+            learning_rate=learning_rate,
+            adam_beta1=adam_beta1,
+            adam_beta2=adam_beta2,
+            adam_epsilon=adam_epsilon,
+            lr_scheduler_type="constant",
+            fp16=True,
+            max_grad_norm = max_grad_norm,
+            logging_steps=20,
+            optim=optim, # adamw_torch
+            evaluation_strategy="steps",
+            save_strategy="steps",
+            eval_steps=20,
+            save_steps=20,
+            output_dir=output_dir,
+            save_total_limit=1,
+            load_best_model_at_end=True,
+            ddp_find_unused_parameters=False if ddp else None,
+            group_by_length=group_by_length,
+            report_to="wandb" if use_wandb else None,
+            run_name=wandb_run_name if use_wandb else None,
+            neftune_noise_alpha = 5,
+        ),
+        data_collator=transformers.DataCollatorForSeq2Seq(
+            tokenizer, pad_to_multiple_of=8, return_tensors="pt", padding=True
+        ),
     )
-    trainer = SFTTrainer(model = model,
-                     args = training_arguments,
-                     train_dataset = train_data,
-                     eval_dataset = val_data,
-                     peft_config = peft_config,
-                     tokenizer = tokenizer,
-                     packing = False,
-                     dataset_text_field = 'content',
-                     max_seq_length = Config.MAX_SEQ_LENGTH)
     model.config.use_cache = False
 
     if torch.__version__ >= "2" and sys.platform != "win32":
         model = torch.compile(model)
 
-    trainer.train()
+    trainer.train(resume_from_checkpoint=resume_from_checkpoint)
 
     model.save_pretrained(output_dir)
     try:
@@ -491,142 +376,149 @@ sau đó chọn 1 trong những đáp án A, B, C, D dưới đây. Điều này
         pass
         
     # Start to Evaluate Data
-#     model.eval()
+    model.eval()
 
-#     # eval_rows = ValidateFunc(model=model,
-#     #                          tokenizer=tokenizer,
-#     #                          test_data=val_data,
-#     #                          batch_size=eval_batch_size)
-#     # cnt = 0
-#     # total = len(eval_rows)
-#     # for eval_row, eval_item in zip(eval_rows, val_data):
-#     #     cnt += eval_row['answer'] == eval_item['answer']
+    # eval_rows = ValidateFunc(model=model,
+    #                          tokenizer=tokenizer,
+    #                          test_data=val_data,
+    #                          batch_size=eval_batch_size)
+    # cnt = 0
+    # total = len(eval_rows)
+    # for eval_row, eval_item in zip(eval_rows, val_data):
+    #     cnt += eval_row['answer'] == eval_item['answer']
 
-#     # print(f"Eval Accuracy: {100 * cnt / total:.2f}")
-#     # Test data
-#     test_rows = ValidateFunc(model=model,
-#                              tokenizer=tokenizer,
-#                              test_path=test_path,
-#                              batch_size=eval_batch_size)
+    # print(f"Eval Accuracy: {100 * cnt / total:.2f}")
+    # Test data
+    test_data = read_json(test_path)['data']
+    test_rows = ValidateFunc(model=model,
+                             tokenizer=tokenizer,
+                             test_path=test_path,
+                             batch_size=eval_batch_size)
 
-#     df = pd.DataFrame(test_rows)
-#     df.to_csv("zalo_submission.csv", index=False)
+    cnt = 0
+    total = len(test_rows)
+    for test_row, test_item in zip(test_rows, test_data):
+        cnt += test_row['answer'][0] == test_item['answer']
 
-
-# def read_json(path):
-#     f = open(path, encoding = "utf8")
-#     data = json.load(f)
-#     f.close()
-#     return data
-
-# def write_json(path, obj):
-#     if not path.endswith(".json"):
-#         path += ".json"
-
-#     json_object = json.dumps(obj, indent=4, ensure_ascii=False)
-#     with open(path, "w", encoding="utf-8") as outfile:
-#         outfile.write(json_object)
+    print(f"Test Accuracy: {100 * cnt / total:.2f}")
+    df = pd.DataFrame(test_rows)
+    df.to_csv("zalo_submission.csv", index=False)
 
 
-# def generate_response(prompt, model, tokenizer, max_length = 1500, temperature = 0.1, top_k = 50):
-#     encoding = tokenizer(prompt, padding=True, 
-#                          truncation=True, 
-#                          return_tensors="pt", 
-#                          max_length = max_length, 
-#                          add_special_tokens=False)
-#     input_ids = encoding["input_ids"].to(model.device)
-#     attention_mask = encoding['attention_mask'].to(model.device)
+def read_json(path):
+    f = open(path, encoding = "utf8")
+    data = json.load(f)
+    f.close()
+    return data
 
-#     generation_config = GenerationConfig(
-#         temperature=temperature,
-#         top_p=1,
-#         do_sample = True,
-#         num_beams = 1,
-#         top_k = top_k,
-#         pad_token_id = tokenizer.pad_token_id,
-#         eos_token_id = tokenizer.eos_token_id
-#     )
+def write_json(path, obj):
+    if not path.endswith(".json"):
+        path += ".json"
 
-#     with torch.inference_mode():
-#         return model.generate(
-#             input_ids=input_ids,
-#             attention_mask=attention_mask,
-#             generation_config=generation_config,
-#             return_dict_in_generate=True,
-#             output_scores=True,
-#             max_new_tokens=512,
-#         )
+    json_object = json.dumps(obj, indent=4, ensure_ascii=False)
+    with open(path, "w", encoding="utf-8") as outfile:
+        outfile.write(json_object)
 
-# def format_response(response, tokenizer):
-#     if response.sequences.size(0) == 1:
-#         decoded_output = tokenizer.decode(response.sequences[0], skip_special_tokens = True)
-#         response = [decoded_output.split(OUTPUT_PREFIX)[-1].strip()]
-#         # put to list to make it compatible
-#     else:
-#         decoded_outputs = tokenizer.batch_decode(response.sequences, skip_special_tokens=True)
-#         response = []
-#         for o in decoded_outputs:
-#             response.append(o.split(OUTPUT_PREFIX)[-1].strip())
-#     return response
 
-# def ask_alpaca(prompt, model, tokenizer, max_length = 1500, temperature = 0.1, top_k = 50):
-#     response = generate_response(prompt, 
-#                                  model, 
-#                                  tokenizer, 
-#                                  max_length = max_length,
-#                                  temperature =temperature, 
-#                                  top_k = top_k)
-#     response = format_response(response, tokenizer)
-#     return response
+def generate_response(prompt, model, tokenizer, max_length = 1500, temperature = 0.1, top_k = 50):
+    encoding = tokenizer(prompt, padding=True, 
+                         truncation=True, 
+                         return_tensors="pt", 
+                         max_length = max_length, 
+                         add_special_tokens=False)
+    input_ids = encoding["input_ids"].to(model.device)
+    attention_mask = encoding['attention_mask'].to(model.device)
 
-# def batch_inference(data, model, tokenizer, batch_size = 4, max_length = 1500, temperature = 0.1, top_k = 50):
-#     tk = tqdm(range(0, len(data), batch_size))
-#     predictions = []
-#     for start_idx in tk:
-#         batch = data[start_idx:start_idx+batch_size]
-#         preds = ask_alpaca(batch, model, tokenizer, max_length = max_length, temperature =temperature, top_k = top_k)
-#         predictions += preds
-#         examples = [p[:50] for p in preds]
-#         tk.set_postfix(
-#             examples=examples,
-#         )
-#     return predictions
+    generation_config = GenerationConfig(
+        temperature=temperature,
+        top_p=0.95,
+        do_sample = True,
+        num_beams = 1,
+        top_k = top_k,
+        pad_token_id = tokenizer.pad_token_id,
+        eos_token_id = tokenizer.eos_token_id
+    )
 
-# def get_results(test_data, test_dialogs):
-#     rows = []
-#     for data, dialog in zip(test_data, test_dialogs):
-#         id = data['id']
-#         choices = data['choices']
-#         answer = None
-#         solution_return = dialog[-1]['content']
-#         for idx, d in enumerate([('A.', '(A)', 'A:'), ('B.', '(B)', 'B:'), ('C.', '(C)', 'C:'), ('D.', '(D)', 'D:')]):
-#             if any(i in solution_return for i in d):
-#                 answer = choices[idx]
+    with torch.inference_mode():
+        return model.generate(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            generation_config=generation_config,
+            return_dict_in_generate=True,
+            output_scores=True,
+            max_new_tokens=512,
+        )
 
-#         if answer is None:
-#             rows.append({"id": id, "answer": choices[0]}) # if can't find
-#             print(id, solution_return)
-#         else:
-#             rows.append({"id": id, "answer": answer})
+def format_response(response, tokenizer):
+    if response.sequences.size(0) == 1:
+        decoded_output = tokenizer.decode(response.sequences[0], skip_special_tokens = True)
+        response = [decoded_output.split(OUTPUT_PREFIX)[-1].strip()]
+        # put to list to make it compatible
+    else:
+        decoded_outputs = tokenizer.batch_decode(response.sequences, skip_special_tokens=True)
+        response = []
+        for o in decoded_outputs:
+            response.append(o.split(OUTPUT_PREFIX)[-1].strip())
+    return response
 
-#     return rows
+def ask_alpaca(prompt, model, tokenizer, max_length = 1500, temperature = 0.1, top_k = 50):
+    response = generate_response(prompt, 
+                                 model, 
+                                 tokenizer, 
+                                 max_length = max_length,
+                                 temperature =temperature, 
+                                 top_k = top_k)
+    response = format_response(response, tokenizer)
+    return response
 
-# def ValidateFunc(model, tokenizer, test_path = None, test_data = None, batch_size = 8):
-#     if test_data is None and test_path is not None:
-#         test_data = read_json(test_path)['data']
+def batch_inference(data, model, tokenizer, batch_size = 4, max_length = 1500, temperature = 0.1, top_k = 50):
+    tk = tqdm(range(0, len(data), batch_size))
+    predictions = []
+    for start_idx in tk:
+        batch = data[start_idx:start_idx+batch_size]
+        preds = ask_alpaca(batch, model, tokenizer, max_length = max_length, temperature =temperature, top_k = top_k)
+        predictions += preds
+        examples = [p[:50] for p in preds]
+        tk.set_postfix(
+            examples=examples,
+        )
+    return predictions
 
-#     test_dialogs = transformer_for_test(test_data)
-#     prompts = [get_dialog_string(d) for d in test_dialogs]
-#     responses = batch_inference(prompts, model, tokenizer, batch_size=1)
+def get_results(test_data, test_dialogs):
+    rows = []
+    for data, dialog in zip(test_data, test_dialogs):
+        id = data['id']
+        choices = data['choices']
+        answer = None
+        solution_return = dialog[-1]['content']
+        for idx, d in enumerate([('A.', '(A)', 'A:'), ('B.', '(B)', 'B:'), ('C.', '(C)', 'C:'), ('D.', '(D)', 'D:')]):
+            if any(i in solution_return for i in d):
+                answer = choices[idx]
 
-#     for dialog, response in zip(test_dialogs, responses):
-#         dialog.append({
-#             "role": "assistant",
-#             "content": response
-#         })
+        if answer is None:
+            rows.append({"id": id, "answer": choices[0]}) # if can't find
+            print(id, solution_return)
+        else:
+            rows.append({"id": id, "answer": answer})
 
-#     rows = get_results(test_data, test_dialogs)
-#     return rows
+    return rows
+
+def ValidateFunc(model, tokenizer, test_path = None, test_data = None, batch_size = 8):
+    if test_data is None and test_path is not None:
+        test_data = read_json(test_path)['data']
+
+    test_dialogs = transformer_for_test(test_data)
+    prompts = [get_dialog_string(d) for d in test_dialogs]
+    responses = batch_inference(prompts, model, tokenizer, batch_size=1)
+
+    for dialog, response in zip(test_dialogs, responses):
+        dialog.append({
+            "role": "assistant",
+            "content": response
+        })
+
+    rows = get_results(test_data, test_dialogs)
+    return rows
 
 if __name__ == "__main__":
     fire.Fire(train)
