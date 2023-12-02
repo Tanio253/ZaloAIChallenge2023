@@ -259,11 +259,7 @@ def train(
                 trust_remote_code=True,
                 quantization_config=bnb_config,
                 use_safetensors=True
-            )
-        if gradient_checkpoint:
-            model.gradient_checkpointing_enable()
-        else:
-            model.gradient_checkpointing_disable()    
+            ) 
 
     else:
         model = AutoModelForCausalLM.from_pretrained(
@@ -274,11 +270,11 @@ def train(
             device_map=device_map,
             trust_remote_code = True,
         )
+    model = prepare_model_for_kbit_training(model)
     if gradient_checkpoint:
-            model.gradient_checkpointing_enable()
+        model.gradient_checkpointing_enable()
     else:
         model.gradient_checkpointing_disable()   
-    model = prepare_model_for_kbit_training(model)
     model.config.eos_token_id = tokenizer.eos_token_id
     model.config.pad_token_id = tokenizer.pad_token_id
     config = LoraConfig(
