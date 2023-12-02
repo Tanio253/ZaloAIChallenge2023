@@ -147,6 +147,8 @@ def train(
     val_data_path: str = "./data/ztrain/mVal.json",
     test_path: str = "./data/ztest/math_test-1.json",
     output_dir: str = "./lora-alpaca",
+    revision = 'main',
+    load_in_8bit = False,
     # training hyperparams
     batch_size: int = 4,
     eval_batch_size: int = 4,
@@ -223,11 +225,11 @@ def train(
         os.environ["WANDB_DISABLED"] = "true"
         use_wandb = False
 
-    tokenizer = AutoTokenizer.from_pretrained(base_model)
+    tokenizer = AutoTokenizer.from_pretrained(base_model,
+                                              revision = revision,
+                                              trust_remote_code = True)
 
-    tokenizer.pad_token_id = (
-        0  # unk. we want this to be different from the eos token
-    )
+    tokenizer.pad_token = tokenizer.eos_token
     global OUTPUT_POSTFIX
     OUTPUT_POSTFIX = tokenizer.eos_token
     tokenizer.padding_side = "left"  # Allow batched inference
@@ -260,12 +262,14 @@ def train(
     else:
         model = AutoModelForCausalLM.from_pretrained(
             base_model,
-            load_in_8bit=True,
-            torch_dtype=torch.float16,
+            revision = revision,
+            load_in_8bit=load_in_8bit,
+            # torch_dtype=torch.float16,
             device_map=device_map,
+            trust_remote_code = True,
         )
         model = prepare_model_for_kbit_training(model)
-
+    model.gradient_checkpointing_enable()
     model.config.eos_token_id = tokenizer.eos_token_id
     model.config.pad_token_id = tokenizer.pad_token_id
     config = LoraConfig(
