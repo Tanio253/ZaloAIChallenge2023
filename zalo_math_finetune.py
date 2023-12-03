@@ -155,7 +155,7 @@ def train(
     eval_batch_size: int = 4,
     gptq_quantization: bool = False,
     # micro_batch_size: int = 4,
-    max_steps: int = 60,
+    max_steps: int = 200,
     # num_epochs: int = 3,
     learning_rate: float = 2e-4,
     cutoff_len: int = 256,
