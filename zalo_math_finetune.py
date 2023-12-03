@@ -153,7 +153,7 @@ def train(
     batch_size: int = 4,
     eval_batch_size: int = 4,
     # micro_batch_size: int = 4,
-    max_steps: int = 160,
+    max_steps: int = 60,
     # num_epochs: int = 3,
     learning_rate: float = 2e-4,
     cutoff_len: int = 256,
