@@ -10,8 +10,9 @@ import numpy as np
 import fire
 import torch
 import transformers
-from transformers import GenerationConfig
+from transformers import GenerationConfig, GPTQConfig
 from datasets import Dataset, load_metric
+
 
 from peft import (
     LoraConfig,
@@ -152,6 +153,7 @@ def train(
     # training hyperparams
     batch_size: int = 4,
     eval_batch_size: int = 4,
+    gptq_quantization: bool = False,
     # micro_batch_size: int = 4,
     max_steps: int = 60,
     # num_epochs: int = 3,
@@ -262,10 +264,13 @@ def train(
             ) 
 
     else:
+        if gptq_quantization:
+            quantization_config = GPTQConfig(bits = 4, exllama_config={"version":2})
         model = AutoModelForCausalLM.from_pretrained(
             base_model,
             revision = revision,
             load_in_8bit=load_in_8bit,
+            quantization_config = quantization_config,
             # torch_dtype=torch.float16,
             device_map=device_map,
             trust_remote_code = True,
@@ -373,7 +378,7 @@ def train(
 
     trainer.train()
 
-    model.save_pretrained(output_dir)
+    # model.save_pretrained(output_dir)
     try:
         if isinstance(huggingface_token, str) and isinstance(huggingface_repo,str):
             from huggingface_hub import login
