@@ -385,33 +385,33 @@ def train(
         pass
         
     # Start to Evaluate Data
-    model.eval()
+    # model.eval()
 
-    # eval_rows = ValidateFunc(model=model,
+    # # eval_rows = ValidateFunc(model=model,
+    # #                          tokenizer=tokenizer,
+    # #                          test_data=val_data,
+    # #                          batch_size=eval_batch_size)
+    # # cnt = 0
+    # # total = len(eval_rows)
+    # # for eval_row, eval_item in zip(eval_rows, val_data):
+    # #     cnt += eval_row['answer'] == eval_item['answer']
+
+    # # print(f"Eval Accuracy: {100 * cnt / total:.2f}")
+    # # Test data
+    # test_data = read_json(test_path)['data']
+    # test_rows = ValidateFunc(model=model,
     #                          tokenizer=tokenizer,
-    #                          test_data=val_data,
+    #                          test_path=test_path,
     #                          batch_size=eval_batch_size)
+
     # cnt = 0
-    # total = len(eval_rows)
-    # for eval_row, eval_item in zip(eval_rows, val_data):
-    #     cnt += eval_row['answer'] == eval_item['answer']
+    # total = len(test_rows)
+    # for test_row, test_item in zip(test_rows, test_data):
+    #     cnt += test_row['answer'][0] == test_item['answer']
 
-    # print(f"Eval Accuracy: {100 * cnt / total:.2f}")
-    # Test data
-    test_data = read_json(test_path)['data']
-    test_rows = ValidateFunc(model=model,
-                             tokenizer=tokenizer,
-                             test_path=test_path,
-                             batch_size=eval_batch_size)
-
-    cnt = 0
-    total = len(test_rows)
-    for test_row, test_item in zip(test_rows, test_data):
-        cnt += test_row['answer'][0] == test_item['answer']
-
-    print(f"Test Accuracy: {100 * cnt / total:.2f}")
-    df = pd.DataFrame(test_rows)
-    df.to_csv("zalo_submission.csv", index=False)
+    # print(f"Test Accuracy: {100 * cnt / total:.2f}")
+    # df = pd.DataFrame(test_rows)
+    # df.to_csv("zalo_submission.csv", index=False)
 
 
 def read_json(path):
